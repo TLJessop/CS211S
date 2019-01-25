@@ -39,19 +39,15 @@ public class PatientTester {
 
         //OutPatients can become InPatients and ER patients
         System.out.println(patients[1].getClass());
-        patients[1] = patients[1].retainPatient(549,5,"Dr. Clifford");
+        patients[1] = Patient.retainPatient(patients[1] ,549,5,"Dr. Clifford");
         System.out.println(patients[1].getClass());
         System.out.println();
 
         System.out.println(patients[2].getClass());
-        patients[2]= patients[2].retainPatient(126,1,
+        patients[2]= Patient.retainPatient(patients[2] ,126,1,
                 "Dr. Cruz");
         System.out.println(patients[2].getClass());
         System.out.println();
-
-        //Larry has been here awhile
-        ((InPatient) patients[3]).setDaysInResidence(300);
-        System.out.println(((InPatient) patients[3]).getDaysInResidence());
 
         //Someone misspelled Freddy's name
         patients[4].setFirstName("Freddy");

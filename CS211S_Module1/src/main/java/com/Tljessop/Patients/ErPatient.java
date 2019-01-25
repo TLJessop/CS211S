@@ -1,12 +1,12 @@
 package com.Tljessop.Patients;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class ErPatient extends Patient {
 
     //Start of instance variables
     private String arrivalType;
-    private Date arrivalTime;
+    private LocalDateTime arrivalTime;
     private String chiefComplaint;
     private String attendingTriage;
     private boolean checkedIn;
@@ -20,7 +20,7 @@ public class ErPatient extends Patient {
                      boolean newConscious ){
         super(newFirstName, newLastName, newAge, newWeight, newPatientIdNumber);
         this.arrivalType = newArrivalType;
-        this.arrivalTime = new Date();
+        this.arrivalTime = LocalDateTime.now();
         this.conscious = newConscious;
 
     }
@@ -29,7 +29,7 @@ public class ErPatient extends Patient {
                      boolean newConscious ){
         super(newAge, newWeight, newPatientIdNumber);
         this.arrivalType = newArrivalType;
-        this.arrivalTime = new Date();
+        this.arrivalTime = LocalDateTime.now();
         this.conscious = newConscious;
 
     }
@@ -41,7 +41,7 @@ public class ErPatient extends Patient {
         return arrivalType;
     }
 
-    public Date getArrivalTime() {
+    public LocalDateTime getArrivalTime() {
         return arrivalTime;
     }
 
@@ -77,7 +77,7 @@ public class ErPatient extends Patient {
     }
 
     public boolean setCheifComplaint(String chiefComplaint) {
-        if(checkedIn == true) {
+        if(checkedIn) {
             this.chiefComplaint = chiefComplaint;
             return true;
         } else {
@@ -96,7 +96,7 @@ public class ErPatient extends Patient {
     // Triage can only happen after checking in
     // During triage the chief complaint will be reassessed
     public void triagePatient(String newChiefComplaint, String newAttendingTriage){
-        if(this.checkedIn = true){
+        if(this.checkedIn){
             this.attendingTriage = newAttendingTriage;
             this.chiefComplaint = newChiefComplaint;
         }

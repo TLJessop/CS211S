@@ -11,12 +11,12 @@ public abstract class Patient {
     // End of instance variables
 
     // Class constants
-    public static final char PATIENT_ID_START_CHAR = 'W';
-    public static final int DEFAULT_PATIENT_ID_NUM = 000000;
+    private static final char PATIENT_ID_START_CHAR = 'W';
+    private static final int DEFAULT_PATIENT_ID_NUM = 000000;
 
     // In theory we might not sometimes be able to get a new patient's name right away
-    public static final String DEFAULT_FIRST_NAME = "NFN"; // This is shorthand for no first name
-    public static final String DEFUALT_LAST_NAME = "NLN"; // This is shorthand for no last name
+    private static final String DEFAULT_FIRST_NAME = "NFN"; // This is shorthand for no first name
+    private static final String DEFUALT_LAST_NAME = "NLN"; // This is shorthand for no last name
     // End of class constants
 
     //Constructors
@@ -64,16 +64,26 @@ public abstract class Patient {
         return age;
     }
 
-    public void setAge(int newAge) {
-        this.age = newAge;
+    public void setAge(int newAge) throws IllegalAccessException{
+        if (newAge > 0){
+            this.age = newAge;
+        } else {
+            throw new IllegalAccessException("Age can not be a negative number");
+        }
+
     }
 
     public double getWeight() {
         return weight;
     }
 
-    public void setWeight(double newWeight) {
-        this.weight = weight;
+    public void setWeight(double newWeight) throws IllegalAccessException{
+        if (newWeight > 0){
+            this.weight = newWeight;
+        } else {
+            throw new IllegalAccessException("Weight can not be a negative number");
+        }
+
     }
 
     public String getPatientIdNumber() {
@@ -135,9 +145,9 @@ public abstract class Patient {
                 "\n" + "There profile has been converted to an archive file");
     }
 
-    public InPatient retainPatient(int newRoomNumber, int newFloorNumber, String newAttendingPhysician){
-        return new InPatient(this.getFirstName(),this.getLastName(),this.getAge(),
-                this.getWeight(), Integer.parseInt(this.getPatientIdNumber().substring(1)),
+    public static InPatient retainPatient(Patient patient, int newRoomNumber, int newFloorNumber, String newAttendingPhysician){
+        return new InPatient(patient.getFirstName(),patient.getLastName(),patient.getAge(),
+                patient.getWeight(), Integer.parseInt(patient.getPatientIdNumber().substring(1)),
                 newRoomNumber,newFloorNumber, newAttendingPhysician);
     }
 
