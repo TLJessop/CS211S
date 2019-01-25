@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f624bdf8-b34a-4360-bcc2-536d4ebf8dcb" name="Default Changelist" comment="updated the ids and fleshed out StaffMember a little more">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f624bdf8-b34a-4360-bcc2-536d4ebf8dcb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS211S_Module1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/ErPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/ErPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/InPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/InPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/OutPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/OutPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/StaffMembers/StaffMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/StaffMembers/StaffMember.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,6 +60,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/OutPatient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="833">
               <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
             </state>
           </provider>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/StaffMembers/StaffMember.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -261,7 +262,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548438884791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548438950416" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -322,32 +323,39 @@
       <option name="presentableId" value="Default" />
       <updated>1547926755898</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated the ids and fleshed out StaffMember a little more">
+      <created>1548438905609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548438905609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1002" y="24" width="928" height="1176" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30839002" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.2735939" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4985591" visible="true" weight="0.30839002" />
+      <window_info id="Structure" order="6" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
+      <window_info id="Favorites" order="7" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.2735939" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32983795" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.32983795" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32900834" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.33872503" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.33872503" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32983795" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -360,7 +368,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the ids and fleshed out StaffMember a little more" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the ids and fleshed out StaffMember a little more" />
+    <MESSAGE value="h" />
+    <option name="LAST_COMMIT_MESSAGE" value="h" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/PatientNumber.java" />
@@ -368,9 +377,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Retainable" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Dischargeable" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Tljessop/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/OutPatient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -382,13 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -441,8 +440,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="833">
           <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
