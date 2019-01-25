@@ -125,7 +125,7 @@ public abstract class Patient {
             return true;
         }
 
-        if (obj instanceof Patient){
+        if (obj.getClass() == this.getClass()){
             if (this.patientIdNumber.equals( ( (Patient) obj).getPatientIdNumber() )
                     && this.firstName.equals( ((Patient) obj).getFirstName() )
                     && this.lastName.equals(((Patient) obj).getLastName())){
