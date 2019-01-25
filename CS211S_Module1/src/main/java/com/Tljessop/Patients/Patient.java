@@ -12,35 +12,32 @@ public abstract class Patient {
     private String patientIdNumber;
     // End of instance variables
 
+    //Class variable
+    private static int nextPatientId = 0 ;
+
+
     // Class constants
     private static final char PATIENT_ID_START_CHAR = 'W';
-    private static final int DEFAULT_PATIENT_ID_NUM = 000000;
 
     // In theory we might not sometimes be able to get a new patient's name right away
     private static final String DEFAULT_FIRST_NAME = "NFN"; // This is shorthand for no first name
-    private static final String DEFUALT_LAST_NAME = "NLN"; // This is shorthand for no last name
+    private static final String DEFAULT_LAST_NAME = "NLN"; // This is shorthand for no last name
     // End of class constants
 
     //Constructors
     public Patient(String newFirstName, String newLastName, int newAge,
-                   double newWeight, int newPatientIdNumber){
+                   double newWeight ){
         this.firstName = newFirstName;
         this.lastName = newLastName;
         this.age = newAge;
         this.weight = newWeight;
-        this.patientIdNumber = PATIENT_ID_START_CHAR + Integer.toString(newPatientIdNumber);
-
+        this.patientIdNumber = PATIENT_ID_START_CHAR + Integer.toString(nextPatientId);
+        nextPatientId ++;
     }
 
-    public Patient( String newFirstName, String newLastName, int newAge,
-                    double newWeight ){
-        this(newFirstName,newLastName,newAge,newWeight,DEFAULT_PATIENT_ID_NUM);
-    }
+    public  Patient(int newAge, double newWeight){
 
-
-    public  Patient(int newAge, double newWeight, int newPatientIdNumber){
-
-        this(DEFAULT_FIRST_NAME,DEFUALT_LAST_NAME,newAge,newWeight,newPatientIdNumber);
+        this(DEFAULT_FIRST_NAME,DEFAULT_LAST_NAME,newAge,newWeight);
     }
     // End of constructors
 
@@ -92,15 +89,6 @@ public abstract class Patient {
         return patientIdNumber;
     }
 
-    // This setter takes the number part of the patient id, but will not allow for that number to match the DEFAULT_PATIENT_ID_NUM
-    // This is to enforce the preface char of the patient id
-    public void setPatientIdNumber(int newPatientIdNumber) throws IllegalAccessException{
-        if (newPatientIdNumber!= DEFAULT_PATIENT_ID_NUM){
-            this.patientIdNumber = PATIENT_ID_START_CHAR + Integer.toString(newPatientIdNumber);
-        } else {
-            throw new IllegalAccessException("New patient id must not match the default id");
-        }
-    }
     // End of Getters and Setters
 
     // Overwrote methods
@@ -155,8 +143,7 @@ public abstract class Patient {
 
     public static InPatient retainPatient(Patient patient, int newRoomNumber, int newFloorNumber, String newAttendingPhysician){
         return new InPatient(patient.getFirstName(),patient.getLastName(),patient.getAge(),
-                patient.getWeight(), Integer.parseInt(patient.getPatientIdNumber().substring(1)),
-                newRoomNumber,newFloorNumber, newAttendingPhysician);
+                patient.getWeight(), newRoomNumber,newFloorNumber, newAttendingPhysician);
     }
 
 }//class Patient

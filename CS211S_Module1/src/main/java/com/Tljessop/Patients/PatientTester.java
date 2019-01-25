@@ -7,14 +7,14 @@ public class PatientTester {
         Patient[] patients = new Patient[5];
 
         //Populating patient array
-        patients[0] = new ErPatient("John","Smith",23,156.3,348536,
+        patients[0] = new ErPatient("John","Smith",23,156.3,
                 "Drove himself", true);
-        patients[1] = new OutPatient("Sandy", "Mitcheal",30,120.4, 416497,
+        patients[1] = new OutPatient("Sandy", "Mitcheal",30,120.4,
                 "Dr. Jones", "OBGYN", 559734);
-        patients[2] = new ErPatient(40,220.9,791463,"EMS Dropoff",false);
-        patients[3] = new InPatient("Larry","Loser",80,140.6,982564,
+        patients[2] = new ErPatient(40,220.9,"EMS Dropoff",false);
+        patients[3] = new InPatient("Larry","Loser",80,140.6,
                 436,4,"Dr. Jones");
-        patients[4] = new InPatient("Freeddy","Jameson",17,170.2,453619,
+        patients[4] = new InPatient("Freeddy","Jameson",17,170.2,
                 297,2,"Dr. Smith");
 
         // Printing the new array to screen

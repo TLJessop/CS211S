@@ -16,18 +16,18 @@ public class ErPatient extends Patient {
 
     //Constructors
     public ErPatient(String newFirstName, String newLastName, int newAge,
-                     double newWeight, int newPatientIdNumber, String newArrivalType,
+                     double newWeight,  String newArrivalType,
                      boolean newConscious ){
-        super(newFirstName, newLastName, newAge, newWeight, newPatientIdNumber);
+        super(newFirstName, newLastName, newAge, newWeight);
         this.arrivalType = newArrivalType;
         this.arrivalTime = LocalDateTime.now();
         this.conscious = newConscious;
 
     }
 
-    public ErPatient( int newAge, double newWeight, int newPatientIdNumber, String newArrivalType,
+    public ErPatient( int newAge, double newWeight, String newArrivalType,
                      boolean newConscious ){
-        super(newAge, newWeight, newPatientIdNumber);
+        super(newAge, newWeight);
         this.arrivalType = newArrivalType;
         this.arrivalTime = LocalDateTime.now();
         this.conscious = newConscious;

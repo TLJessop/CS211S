@@ -13,18 +13,18 @@ public class InPatient extends Patient{
 
     //Constructors
     public InPatient(String newFirstName, String newLastName, int newAge,
-                     double newWeight, int newPatientIdNumber, int newRoomNumber,
+                     double newWeight, int newRoomNumber,
                      int newFloorNumber, String newAttendingPhysician){
-        super(newFirstName,newLastName,newAge,newWeight,newPatientIdNumber);
+        super(newFirstName,newLastName,newAge,newWeight);
         this.attendingPhysician = newAttendingPhysician;
         this.beginningOfResidence = LocalDateTime.now();
         this.floorNumber = newFloorNumber;
         this.roomNumber = newRoomNumber;
     }
 
-    public InPatient( int newAge, double newWeight, int newPatientIdNumber, int newRoomNumber,
+    public InPatient( int newAge, double newWeight, int newRoomNumber,
                      int newFloorNumber, String newAttendingPhysician){
-        super(newAge,newWeight,newPatientIdNumber);
+        super(newAge,newWeight);
         this.attendingPhysician = newAttendingPhysician;
         this.beginningOfResidence = LocalDateTime.now();
         this.floorNumber = newFloorNumber;

@@ -13,9 +13,9 @@ public class OutPatient extends Patient {
     public static final int DEFAULT_REFERIAL_ID = 000000;
 
     public OutPatient(String newFirstName, String newLastName, int newAge,
-                      double newWeight, int newPatientIdNumber, String newReferingPhysican,
+                      double newWeight, String newReferingPhysican,
                       String newDepartmentRefereedTo, int newReferralIdNumber){
-        super(newFirstName,newLastName,newAge,newWeight,newPatientIdNumber);
+        super(newFirstName,newLastName,newAge,newWeight);
         this.reveringPhysician = newReferingPhysican;
         this.departmentRefereedTo = newDepartmentRefereedTo;
         this.referralIdNumber = newReferralIdNumber;
@@ -23,20 +23,20 @@ public class OutPatient extends Patient {
 
     //Constructors
     public OutPatient(String newFirstName, String newLastName, int newAge,
-                      double newWeight, int newPatientIdNumber, String newReferingPhysican,String newDepartmentReferedTo){
-        this(newFirstName,newLastName, newAge, newWeight, newPatientIdNumber,
+                      double newWeight, String newReferingPhysican,String newDepartmentReferedTo){
+        this(newFirstName,newLastName, newAge, newWeight,
                 newReferingPhysican,newDepartmentReferedTo, DEFAULT_REFERIAL_ID);
     }
 
     public OutPatient(String newFirstName, String newLastName, int newAge,
-                      double newWeight, int newPatientIdNumber, String newReferingPhysican, int newReferalIdNumber){
-        this(newFirstName,newLastName, newAge, newWeight, newPatientIdNumber,
+                      double newWeight, String newReferingPhysican, int newReferalIdNumber){
+        this(newFirstName,newLastName, newAge, newWeight,
                 newReferingPhysican,DEFUALT_DEPARTMENT_REFERIAL, newReferalIdNumber);
     }
 
     public OutPatient(String newFirstName, String newLastName, int newAge,
-                      double newWeight, int newPatientIdNumber, String newReferingPhysican){
-        this(newFirstName,newLastName, newAge, newWeight, newPatientIdNumber,
+                      double newWeight, String newReferingPhysican){
+        this(newFirstName,newLastName, newAge, newWeight,
                 newReferingPhysican,DEFUALT_DEPARTMENT_REFERIAL, DEFAULT_REFERIAL_ID);
     }
     // End of constructors
