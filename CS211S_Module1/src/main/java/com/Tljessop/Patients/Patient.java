@@ -2,7 +2,7 @@ package com.Tljessop.Patients;
 
 import java.util.Objects;
 
-public abstract class Patient {
+public abstract class Patient implements Comparable<Patient> {
 
     //Start of instance variables
     private  String firstName;
@@ -132,6 +132,17 @@ public abstract class Patient {
     public int hashCode(){
         return Objects.hash(this.age, this.firstName, this.lastName,
                 this.patientIdNumber, this.weight);
+    }
+
+    @Override
+    public int compareTo(Patient otherPatient){
+        if (this.lastName.compareTo(otherPatient.lastName) !=0){
+            return this.lastName.compareTo(otherPatient.lastName);
+        } else if(this.firstName.compareTo(otherPatient.firstName) !=0){
+            return this.firstName.compareTo(otherPatient.firstName);
+        }else {
+            return this.patientIdNumber.compareTo(otherPatient.patientIdNumber);
+        }
     }
     //End of overwrote methods
 
