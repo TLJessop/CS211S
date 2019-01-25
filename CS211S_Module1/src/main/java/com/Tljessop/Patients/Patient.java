@@ -1,5 +1,7 @@
 package com.Tljessop.Patients;
 
+import java.util.Objects;
+
 public abstract class Patient {
 
     //Start of instance variables
@@ -136,6 +138,12 @@ public abstract class Patient {
         } else {
             return false;
         }
+    }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(this.age, this.firstName, this.lastName,
+                this.patientIdNumber, this.weight);
     }
     //End of overwrote methods
 
