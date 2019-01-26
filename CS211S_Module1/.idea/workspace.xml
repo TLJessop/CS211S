@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f624bdf8-b34a-4360-bcc2-536d4ebf8dcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module2/src/main/java/com/tljessop/VideoCodeAlong/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="../.idea/" />
+    <ignored path="../CS211S_Module2/target/classes/com/tljessop/App.class" />
+    <ignored path="../CS211S_Module2/target/test-classes/com/tljessop/AppTest.class" />
+    <ignored path="../CS211S_Module2/src/test/java/com/tljessop/AppTest.java" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/StaffMembers/StaffMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-413">
+            <state relative-caret-position="-399">
               <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
               <folding>
                 <element signature="e#3523#3524#0" expanded="true" />
@@ -60,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -105,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+            <state relative-caret-position="367">
+              <caret line="143" column="80" selection-start-line="143" selection-start-column="80" selection-end-line="143" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -145,8 +155,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/ErPatient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/StaffMembers/StaffMember.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java" />
       </list>
     </option>
   </component>
@@ -211,47 +221,6 @@
               <item name="Tljessop" type="462c0819:PsiDirectoryNode" />
               <item name="Patients" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CS211S_Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS211S_Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tljessop" type="462c0819:PsiDirectoryNode" />
-              <item name="StaffMembers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS211S_Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS211S_Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS211S_Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS211S_Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS211S_Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS211S_Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS211S_Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS211S_Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Tljessop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS211S_Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS211S_Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -262,8 +231,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548438950416" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548474928384" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS211S_Module2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -330,11 +299,35 @@
       <option name="project" value="LOCAL" />
       <updated>1548438905609</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="h">
+      <created>1548438959402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548438959402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added a compareTo method">
+      <created>1548448021024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548448021024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1002" y="24" width="928" height="1176" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -369,7 +362,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the ids and fleshed out StaffMember a little more" />
     <MESSAGE value="h" />
-    <option name="LAST_COMMIT_MESSAGE" value="h" />
+    <MESSAGE value="added a compareTo method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a compareTo method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/PatientNumber.java" />
@@ -377,13 +371,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Retainable" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Dischargeable" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Tljessop/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/OutPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/ErPatient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -391,9 +378,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/InPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/StaffMembers/StaffMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
+        <state relative-caret-position="-399">
           <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
           <folding>
             <element signature="e#3523#3524#0" expanded="true" />
@@ -431,31 +432,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/InPatient.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/OutPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="145" column="37" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Patients/PatientTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="367">
+          <caret line="143" column="80" selection-start-line="143" selection-start-column="80" selection-end-line="143" selection-end-column="80" />
         </state>
       </provider>
     </entry>
