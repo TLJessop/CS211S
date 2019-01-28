@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30f8437a-f1cb-4ba4-8532-9a038c149c39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tljessop/VideoCodeAlong/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../.idea/.name" />
+    <ignored path="src/test/java/com/tljessop/AppTest.java" />
+    <ignored path="../.idea/compiler.xml" />
+    <ignored path="../.idea/encodings.xml" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/Patients/ErPatient.class" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/Patients/InPatient.class" />
+    <ignored path="../.idea/misc.xml" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/Patients/OutPatient.class" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/Patients/Patient.class" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/Patients/PatientTester.class" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/StaffMembers/PayType.class" />
+    <ignored path="../CS211S_Module1/target/classes/com/Tljessop/StaffMembers/StaffMember.class" />
+    <ignored path="../.idea/dictionaries/thomas.xml" />
+    <ignored path="../.idea/vcs.xml" />
+    <ignored path="../.idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +41,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tljessop/VideoCodeAlong/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="-383">
               <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
@@ -70,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,12 +142,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548474928448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548536162965" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -191,13 +200,20 @@
       <option name="presentableId" value="Default" />
       <updated>1548439408918</updated>
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1548474958788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548474958788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="992" y="24" width="928" height="1176" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25510204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26077098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -215,7 +231,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32983795" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32983795" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33888346" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -227,8 +243,13 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tljessop/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tljessop/VideoCodeAlong/BoxR.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -236,16 +257,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tljessop/VideoCodeAlong/BoxR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tljessop/VideoCodeAlong/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="-383">
           <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
