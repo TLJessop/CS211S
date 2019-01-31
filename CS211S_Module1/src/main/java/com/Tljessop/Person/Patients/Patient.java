@@ -1,7 +1,9 @@
 package com.Tljessop.Person.Patients;
 
-import java.util.Objects;
+
 import com.Tljessop.Person.Person;
+
+import java.util.Objects;
 
 // M2 HOMEWORK ENUM
 enum PatientSatus{
