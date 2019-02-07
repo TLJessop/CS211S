@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de1699e4-936b-4dd6-9617-11116b3a1cfd" name="Default Changelist" comment="update to javamart and a few more of week three's code along files">
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Payer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/MediaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/SoftwareProduct.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Doctor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/ErTechnican.java" afterDir="false" />
@@ -17,9 +11,6 @@
       <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/ProperPayer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/SalaryPayer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/InPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/InPatient.java" afterDir="false" />
@@ -62,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="60">
               <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
@@ -142,7 +133,6 @@
     </navigator>
     <panes>
       <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,12 +170,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549198212679" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Patient_Information_managerment" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -214,12 +205,20 @@
       <option name="presentableId" value="Default" />
       <updated>1548716076862</updated>
     </task>
+    <task id="LOCAL-00001" summary="update to javamart">
+      <created>1549499882428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549499882428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18131565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -237,7 +236,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32961932" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32961932" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32961932" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -251,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update to javamart and a few more of week three's code along files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to javamart and a few more of week three's code along files" />
+    <MESSAGE value="update to javamart" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to javamart" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/MediaType.java">
@@ -277,17 +277,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,8 @@
 package com.Tljessop.Person.Patients;
 
+import com.Tljessop.Person.Staff.Doctor;
+import com.Tljessop.Person.Staff.Nurse;
+
 import java.time.LocalDateTime;
 
 public class ErPatient extends Patient {
@@ -8,10 +11,10 @@ public class ErPatient extends Patient {
     private String arrivalType;
     private LocalDateTime arrivalTime;
     private String chiefComplaint;
-    private String attendingTriage;
+    private Nurse attendingTriage;
     private boolean checkedIn;
     private boolean conscious;
-    private String attendingPhysician;
+    private Doctor attendingPhysician;
     // End of instance variables
 
     //Constructors
@@ -49,7 +52,7 @@ public class ErPatient extends Patient {
         return chiefComplaint;
     }
 
-    public String getAttendingTriage() {
+    public Nurse getAttendingTriage() {
         return attendingTriage;
     }
 
@@ -61,12 +64,12 @@ public class ErPatient extends Patient {
         return conscious;
     }
 
-    public String getAttendingPhysician() {
+    public Doctor getAttendingPhysician() {
         return attendingPhysician;
     }
 
     // The attending physician can only be set after a patient has been triaged
-    public boolean setAttendingPhysician(String attendingPhysician) {
+    public boolean setAttendingPhysician(Doctor attendingPhysician) {
 
         if(attendingTriage != null) {
             this.attendingPhysician = attendingPhysician;
@@ -95,7 +98,7 @@ public class ErPatient extends Patient {
 
     // Triage can only happen after checking in
     // During triage the chief complaint will be reassessed
-    public void triagePatient(String newChiefComplaint, String newAttendingTriage){
+    public void triagePatient(String newChiefComplaint, Nurse newAttendingTriage){
         if(this.checkedIn){
             this.attendingTriage = newAttendingTriage;
             this.chiefComplaint = newChiefComplaint;

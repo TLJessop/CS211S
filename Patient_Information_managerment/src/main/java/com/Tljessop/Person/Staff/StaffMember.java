@@ -2,27 +2,15 @@ package com.Tljessop.Person.Staff;
 
 import com.Tljessop.Person.Person;
 
-enum PayType{
-    HORULY("H"), SALLERY("S");
+import java.util.Objects;
 
-    private String payCode;
-
-    private PayType(String payCode){
-        this.payCode = payCode;
-    }
-
-    public String getPayCode() {
-        return payCode;
-    }
-}
-
+// M3 USING STRATEGY
 public abstract class StaffMember extends Person {
 
     //Start of instance variables
     private String staffId;
-    private double payRate;
     private int vacationDays;
-    private PayType payType;
+    private Payer payer;
     // End of instance variables
 
     //Class variable
@@ -35,63 +23,49 @@ public abstract class StaffMember extends Person {
     // End of class constants
 
     //Constructors
-    public StaffMember(String firstName, String lastName, int age,String streetAddress,
-                       String phoneNumber,String socialSecurityNumber,double payRate,
-                       PayType payType, int vacationDays) throws IllegalAccessException{
+    public StaffMember(String firstName, String lastName, Integer age,String streetAddress,
+                       String phoneNumber,String socialSecurityNumber,
+                       Payer payer, Integer vacationDays) throws IllegalArgumentException{
         super(firstName,lastName, age, streetAddress,phoneNumber, socialSecurityNumber);
 
-        setPayRate(payRate);
-
-        this.payType = payType;
+        this.payer = payer;
 
         this.staffId = STAFF_ID_START_CHAR + Integer.toString(nextStaffId);
         nextStaffId++;
 
-        setVacationDays(vacationDays);
+        //setVacationDays(vacationDays);
 
     }
 
     public StaffMember(String firstName, String lastName, int age,String streetAddress,
-                       String phoneNumber,String socialSecurityNumber,double payRate,
-                       PayType payType) throws IllegalAccessException {
-        this(firstName,lastName,age,streetAddress,phoneNumber,socialSecurityNumber,payRate,
-                payType,DEFAULT_VACATION_DAYS);
+                       String phoneNumber,String socialSecurityNumber,
+                       Payer payer) throws IllegalArgumentException {
+        this(firstName,lastName,age,streetAddress,phoneNumber,socialSecurityNumber,
+                payer,DEFAULT_VACATION_DAYS);
     }
     //End of Constructors
 
     //Getters and setters
-    public double getPayRate() {
-        return payRate;
-    }
-
-    public double setPayRate(double payRate) throws IllegalAccessException {
-        if (payRate > 0){
-            this.payRate = payRate;
-        } else {
-            throw new IllegalAccessException("Payrate must be a positive number");
-        }
-        return payRate;
-    }
 
     public int getVacationDays() {
         return vacationDays;
     }
 
-    public int setVacationDays(int vacationDays) throws IllegalAccessException {
-        if (vacationDays > 0 ){
+    public int setVacationDays(int vacationDays) throws IllegalArgumentException {
+        if (vacationDays < 0 ){
             this.vacationDays = vacationDays;
         } else {
-            throw new IllegalAccessException("Vacation Days must be greater than 0");
+            throw new IllegalArgumentException("Vacation Days must be greater than 0");
         }
         return vacationDays;
     }
 
-    public PayType getPayType() {
-        return payType;
+    public Payer getPayer() {
+        return payer;
     }
 
-    public void setPayType(PayType payType) {
-        this.payType = payType;
+    public void setPayer(Payer payer) {
+        this.payer = payer;
     }
 
     public String getStaffId() {
@@ -100,8 +74,33 @@ public abstract class StaffMember extends Person {
 
     // End of Getters and Setters
 
-    public abstract double pay();
+    public void pay(){
+        payer.pay();
+    }
+    //End of getters and setters
 
 
+    @Override
+    public String toString() {
+        return super.toString()+ " staffId='" + staffId + '\n' +
+                ", vacationDays=" + vacationDays +
+                "} " ;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        StaffMember that = (StaffMember) o;
+        return getVacationDays() == that.getVacationDays() &&
+                getStaffId().equals(that.getStaffId()) &&
+                Objects.equals(getPayer(), that.getPayer());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getStaffId(), getVacationDays(), getPayer());
+    }
 }//Class StaffMember
 

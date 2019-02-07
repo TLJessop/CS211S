@@ -1,68 +1,78 @@
 package com.Tljessop.Person.Patients;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 public class PatientTester {
-    public static void main(String[] args){
 
-        //Creating array of patients
-        Patient[] patients = new Patient[5];
+    static Scanner userInput = new Scanner(System.in);
 
-        //Populating patient array
-        patients[0] = new ErPatient("John","Smith",23,156.3,
-                "Drove himself", true);
-        patients[1] = new OutPatient("Sandy", "Mitcheal",30,120.4,
-                "Dr. Jones", "OBGYN", 559734);
-        patients[2] = new ErPatient(40,220.9,"EMS Dropoff",false);
-        patients[3] = new InPatient("Larry","Loser",80,140.6,
-                436,4,"Dr. Jones");
-        patients[4] = new InPatient("Freeddy","Jameson",17,170.2,
-                297,2,"Dr. Smith");
+    public static void main(String[] args) {
 
-        // Printing the new array to screen
-        for (Patient p1: patients
-             ) {
-            System.out.println(p1);
-            System.out.println();
+        List<Patient> patients = new ArrayList<>();
 
+        // M3 USING FACTORY
+
+        System.out.print("How many patients would you like to make : ");
+        int loopControl = Integer.parseInt(userInput.nextLine());
+
+        for (int i = 0; i < loopControl; i++) {
+
+            System.out.print("Please give type patient to be made \n\tValid options are IN, Out and ER \n\t:");
+            String type = userInput.nextLine();
+
+            System.out.print("Please give the patient's first name : ");
+            String firstName = userInput.nextLine();
+
+            System.out.print("Please give the patient's last name : ");
+            String lastName = userInput.nextLine();
+
+            System.out.print("Please give the patient's age :");
+            int age = Integer.parseInt(userInput.nextLine());
+
+            System.out.print("Please give the patient's weight : ");
+            double weight = Double.parseDouble(userInput.nextLine());
+
+           patients.add( PatientFactory.newPatient(type,firstName,lastName,age,weight));
         }
 
-        // Demonstrating some of the ErPatients methods
-        ((ErPatient) patients[2]).checkIn("Bleeding from eyes, nose and mouth");
-        System.out.println(((ErPatient) patients[2]).getChiefComplaint());
-        ((ErPatient) patients[2]).triagePatient("Dying from blood loss", "RN Anna Smith");
-        System.out.println(((ErPatient) patients[2]).getChiefComplaint());
-        ((ErPatient) patients[2]).setAttendingPhysician("Dr.Jackson");
         System.out.println();
+        for (Patient patient:patients
+             ) {
+            System.out.println(patient);
+        }
 
-        System.out.println(((ErPatient) patients[0]).isCheckedIn());
-        ((ErPatient) patients[0]).checkIn("Broken toe");
-        patients[0].discharge();
+        String yesOrNo;
 
-        //OutPatients can become InPatients and ER patients
-        System.out.println(patients[1].getClass());
-        patients[1] = Patient.retainPatient(patients[1] ,549,5,"Dr. Clifford");
-        System.out.println(patients[1].getClass());
-        System.out.println();
+        do {
+            System.out.println();
+            System.out.println("-------------------------------------------------------------------------");
+            System.out.println();
 
-        System.out.println(patients[2].getClass());
-        patients[2]= Patient.retainPatient(patients[2] ,126,1,
-                "Dr. Cruz");
-        System.out.println(patients[2].getClass());
-        System.out.println();
+            System.out.println("How would you like to short your new patients?" +
+                    "\n\tValid options are ByFirstName, ByAge, ById and NaturalOrder \n\t:");
+            String orderType = userInput.nextLine();
 
-        //Someone misspelled Freddy's name
-        patients[4].setFirstName("Freddy");
-        // Then he gets to go home
-        patients[4].discharge();
-        System.out.println();
+            if (orderType.equalsIgnoreCase("ByFirstName")) {
+                Collections.sort(patients, Patient.FIRST_NAME_COMPARE);
+            } else if (orderType.equalsIgnoreCase("ByAge")) {
+                Collections.sort(patients, Patient.AGE_COMPARE);
+            } else if (orderType.equalsIgnoreCase("ById")) {
+                Collections.sort(patients, Patient.ID_COMPARE);
+            } else if (orderType.equalsIgnoreCase("NaturalOrder")) {
+                Collections.sort(patients);
+            }
 
-        ArrayList<Patient> patientArrayList = new ArrayList<>(Arrays.asList(patients));
-        System.out.println(patientArrayList);
-        System.out.println();
-        patientArrayList.sort(Patient::compareTo);
-        System.out.println(patientArrayList);
+            for (Patient patient:patients
+            ) {
+                System.out.println(patient);
+            }
 
+            System.out.println("Would ypu like to resort? \n\t Valid options are yes and no\n\t:");
+            yesOrNo = userInput.nextLine();
+        } while (yesOrNo.equalsIgnoreCase("yes"));
     }//main
-}//class
+
+}//Class PatientTester

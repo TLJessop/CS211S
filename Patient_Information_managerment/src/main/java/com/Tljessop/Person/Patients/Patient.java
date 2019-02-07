@@ -3,13 +3,13 @@ package com.Tljessop.Person.Patients;
 
 import com.Tljessop.Person.Person;
 
+import java.util.Comparator;
 import java.util.Objects;
 
-// M2 HOMEWORK ENUM
-enum PatientSatus{
+enum PatientStatus {
     ACTIVE("A"),INACTIVE("IA");
     private String statusCode;
-    private PatientSatus(String statusCode){
+    private PatientStatus(String statusCode){
         this.statusCode = statusCode;
     }
 
@@ -19,7 +19,7 @@ enum PatientSatus{
 
     @Override
     public String toString() {
-        return "PatientSatus{" +
+        return "PatientStatus{" +
                 "statusCode='" + statusCode + '\'' +
                 '}';
     }
@@ -29,7 +29,7 @@ public abstract class Patient extends Person  implements Comparable<Patient> {
 
     //Start of instance variables
     private String patientIdNumber;
-    private PatientSatus patientSatus;
+    private PatientStatus patientStatus;
     // End of instance variables
 
     // M2 HOMEWORK STATIC
@@ -39,6 +39,10 @@ public abstract class Patient extends Person  implements Comparable<Patient> {
 
     // Class constants
     private static final char PATIENT_ID_START_CHAR = 'W';
+
+    public static FirstNameComparator FIRST_NAME_COMPARE = new FirstNameComparator();
+    public static AgeComparator AGE_COMPARE = new AgeComparator();
+    public static PatientIdComparator ID_COMPARE = new PatientIdComparator();
 
     // In theory we might not sometimes be able to get a new patient's name right away
     private static final String DEFAULT_FIRST_NAME = "NFN"; // This is shorthand for no first name
@@ -50,7 +54,7 @@ public abstract class Patient extends Person  implements Comparable<Patient> {
                    double newWeight ){
       super(newFirstName,newLastName,newAge,newWeight);
         // M2 HOMEWORK ENUM USE
-        this.patientSatus = PatientSatus.ACTIVE;
+        this.patientStatus = PatientStatus.ACTIVE;
         this.patientIdNumber = PATIENT_ID_START_CHAR + Integer.toString(nextPatientId);
         nextPatientId ++;
     }
@@ -67,12 +71,12 @@ public abstract class Patient extends Person  implements Comparable<Patient> {
         return patientIdNumber;
     }
 
-    public PatientSatus getPatientSatus() {
-        return patientSatus;
+    public PatientStatus getPatientStatus() {
+        return patientStatus;
     }
 
-    public void setPatientSatus(PatientSatus patientSatus) {
-        this.patientSatus = patientSatus;
+    public void setPatientStatus(PatientStatus patientStatus) {
+        this.patientStatus = patientStatus;
     }
 
     // End of Getters and Setters
@@ -122,19 +126,40 @@ public abstract class Patient extends Person  implements Comparable<Patient> {
 
     @Override
     public int compareTo(Patient otherPatient){
-        if (super.getLastName().compareTo(otherPatient.getLastName()) !=0){
-            return super.getLastName().compareTo(otherPatient.getLastName());
-        } else if(super.getFirstName().compareTo(otherPatient.getFirstName()) !=0){
-            return super.getFirstName().compareTo(otherPatient.getFirstName());
+        if (super.getLastName().compareToIgnoreCase(otherPatient.getLastName()) !=0){
+            return super.getLastName().compareToIgnoreCase(otherPatient.getLastName());
+        } else if(super.getFirstName().compareToIgnoreCase(otherPatient.getFirstName()) !=0){
+            return super.getFirstName().compareToIgnoreCase(otherPatient.getFirstName());
         }else {
-            return this.patientIdNumber.compareTo(otherPatient.patientIdNumber);
+            return this.patientIdNumber.compareToIgnoreCase(otherPatient.patientIdNumber);
         }
     }
     //End of overwrote methods
 
+    private static class FirstNameComparator implements Comparator<Patient>{
+        @Override
+        public int compare(Patient p1, Patient p2){
+            return p1.getFirstName().compareToIgnoreCase(p2.getFirstName());
+        }
+    }
+
+    private static class AgeComparator implements Comparator<Patient>{
+        @Override
+        public int compare(Patient p1, Patient p2){
+            return Integer.compare(p1.getAge(), p2.getAge());
+        }
+    }
+
+    private static class PatientIdComparator implements Comparator<Patient>{
+        @Override
+        public int compare(Patient p1, Patient p2){
+            return p1.patientIdNumber.compareTo(p2.patientIdNumber);
+        }
+    }
+
     // M2 HOMEWORK ENUM USE
     public void discharge(){
-        this.patientSatus = PatientSatus.INACTIVE;
+        this.patientStatus = PatientStatus.INACTIVE;
         System.out.println("Patient : " + this.getLastName() + ", " +
                 this.getFirstName() + " has been release from active care" +
                 "\n" + "There profile has been converted to an archive file");
@@ -144,5 +169,6 @@ public abstract class Patient extends Person  implements Comparable<Patient> {
         return new InPatient(patient.getFirstName(),patient.getLastName(),patient.getAge(),
                 patient.getWeight(), newRoomNumber,newFloorNumber, newAttendingPhysician);
     }
+
 
 }//class Patient

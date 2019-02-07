@@ -42,11 +42,11 @@ public class InPatient extends Patient{
         return floorNumber;
     }
 
-    public void setFloorNumber(int newFloorNumber) throws IllegalAccessException {
+    public void setFloorNumber(int newFloorNumber) throws IllegalArgumentException {
         if (newFloorNumber > 0){
             this.floorNumber = newFloorNumber;
         } else {
-            throw new IllegalAccessException("Floor Number can not be a negative number");
+            throw new IllegalArgumentException("Floor Number can not be a negative number");
         }
 
     }
@@ -55,11 +55,11 @@ public class InPatient extends Patient{
         return roomNumber;
     }
 
-    public void setRoomNumber(int newRoomNumber) throws IllegalAccessException{
+    public void setRoomNumber(int newRoomNumber) throws IllegalArgumentException{
         if (newRoomNumber > 0 ){
             this.roomNumber = newRoomNumber;
         } else {
-            throw new IllegalAccessException(" Room number can not be a negative number");
+            throw new IllegalArgumentException(" Room number can not be a negative number");
         }
 
     }
