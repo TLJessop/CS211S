@@ -13,13 +13,13 @@ public abstract class Product implements Comparable<Product> {
     // End of Instance variables
 
     //Constants
-    private static final char DEFUALT_PRODUCT_ID_CHAR = 'A';
+    private static final String DEFAULT_PRODUCT_ID_CHAR = "A";
 
     //Class variable
     private static int nextProductIdNum = 0;
 
     //Constructors
-    public Product(String productName, String manufacturer, char productIdChar,
+    public Product(String productName, String manufacturer, String productIdChar,
                    String productCode) {
         this.productId = productIdChar + Integer.toString(nextProductIdNum);
         this.productName = productName;
@@ -30,7 +30,7 @@ public abstract class Product implements Comparable<Product> {
     }
 
     public Product(String productName, String manufacturer, String productCode){
-        this(productName,manufacturer,DEFUALT_PRODUCT_ID_CHAR,productCode);
+        this(productName,manufacturer, DEFAULT_PRODUCT_ID_CHAR,productCode);
     }
     // End of Constructors
 

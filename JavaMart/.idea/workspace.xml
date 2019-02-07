@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de1699e4-936b-4dd6-9617-11116b3a1cfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/thomas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/ErPatient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/InPatient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/OutPatient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/Patient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/PatientTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/StaffMembers/PayType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/StaffMembers/StaffMember.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaMart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java" afterDir="false" />
+    <list default="true" id="de1699e4-936b-4dd6-9617-11116b3a1cfd" name="Default Changelist" comment="update to javamart and a few more of week three's code along files">
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Payer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/MediaType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/SoftwareProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/ErTechnican.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Payer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/ProperPayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/SalaryPayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Patients/ErPatient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Patients/InPatient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Patients/OutPatient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Patients/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Patients/PatientTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Person/Patients/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module1/src/main/java/com/Tljessop/Person/Patients/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/InPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/InPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/ErPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/InPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/OutPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/PatientTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/StaffMembers/PayType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/StaffMembers/StaffMember.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,37 +44,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/SoftwareProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-              <folding>
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1503#1504#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1569#1570#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -85,6 +94,7 @@
         <option value="Class" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -92,7 +102,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/MediaType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/ComputerFactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/ComputerBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/SoftwareProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java" />
       </list>
     </option>
   </component>
@@ -114,11 +129,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="981" />
-    <option name="y" value="24" />
-    <option name="width" value="939" />
-    <option name="height" value="1176" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="285" />
+    <option name="y" value="-4" />
+    <option name="width" value="928" />
+    <option name="height" value="1168" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,8 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,27 +176,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Products" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaMart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaMart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaMart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaMart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaMart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaMart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tljessop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -190,8 +184,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548722452217" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549198212679" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -223,21 +217,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="981" y="24" width="939" height="1176" extended-state="4" />
+    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32983795" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32983795" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32983795" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -245,44 +234,67 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.32922733" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32961932" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32961932" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.033594623" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update to javamart and a few more of week three's code along files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to javamart and a few more of week three's code along files" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/MediaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/ComputerBuilder.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/SoftwareProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Products/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
