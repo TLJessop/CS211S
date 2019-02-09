@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e343e2-8c0c-44fd-b465-0661de627007" name="Default Changelist" comment="Big update with lot added the staffmembers fuctionality and implatmentions of a couple of design staiges">
-      <change afterPath="$PROJECT_DIR$/../JavaMart/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/MediaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/SoftwareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/ErTechnican.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/Payer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/ProperPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/SalaryPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaMart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMart/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/InPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/InPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Patients/PatientTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient_Information_managerment/src/main/java/com/Tljessop/Person/Staff/StaffMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/ErPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/InPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/OutPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/Patients/PatientTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/StaffMembers/PayType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient_Information_managerment/target/classes/com/Tljessop/StaffMembers/StaffMember.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="75">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -192,9 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,15 +198,31 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="VideoCodeAlong" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS211S_Module3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_Module3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS211S_Module3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_Module3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549336977212" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaMart" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549501445207" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CS111C/CS111C_Module3" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -313,7 +299,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Learn" order="5" weight="0.32916668" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18463239" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18684356" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32983795" />
@@ -409,6 +395,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tjessop/VideoCodeAlong/Payer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tjessop/VideoCodeAlong/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -468,17 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tjessop/VideoCodeAlong/Payer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="75">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f624bdf8-b34a-4360-bcc2-536d4ebf8dcb" name="Default Changelist" comment="Major comint with new staff classes">
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/CS211S_Module3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/CommissionPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/DepartmentTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/EmployeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/FullTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/HourlyPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Intern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/NotPaidPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/PartTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/Payer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CS211S_Module3/src/main/java/com/Tjessop/VideoCodeAlong/SalaryPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/MediaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/SoftwareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/ErTechnican.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/Payer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/ProperPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/SalaryPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaMart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMart/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaMart/src/main/java/com/Tljessop/Products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/InPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/InPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/PatientTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/PatientTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Patients/ErPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Patients/InPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Patients/OutPatient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Patients/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Patients/PatientTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/StaffMembers/PayType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/StaffMembers/StaffMember.class" beforeDir="false" />
-    </list>
+    <list default="true" id="f624bdf8-b34a-4360-bcc2-536d4ebf8dcb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="../.idea/" />
@@ -70,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/Doctor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -82,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -98,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/SalaryPayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="135">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#140#141#0" expanded="true" />
@@ -122,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/Nurse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="300">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="315">
               <caret line="21" column="11" selection-start-line="20" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -146,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffMember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
+            <state relative-caret-position="1020">
               <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -168,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="675">
               <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -266,7 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -290,13 +239,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549336977288" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS211S_Module3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -404,7 +353,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548959183353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Major update to Patient information management. built out the staffmember classes and implemented a few basic design patterns">
+      <created>1549500066356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549500066356</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".class files">
+      <created>1549500118492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549500118492</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -417,19 +380,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="992" y="24" width="928" height="1176" extended-state="4" />
+    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32946378" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4985591" visible="true" weight="0.27097505" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4985591" weight="0.13543394" />
       <window_info id="Structure" order="6" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
       <window_info id="Favorites" order="7" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.2735939" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32983795" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.97140133" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.9712163" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
@@ -454,17 +417,17 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32946378" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4985591" visible="true" weight="0.19832985" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4985591" weight="0.13543394" />
       <window_info id="Structure" order="6" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
       <window_info id="Favorites" order="7" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.2735939" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.97140133" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32983795" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.9712163" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32810968" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.35651323" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.25071496" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.38904363" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -486,7 +449,9 @@
     <MESSAGE value="Restructured the project so that the base class is the Person class, and updated the package structure" />
     <MESSAGE value="added a few new features" />
     <MESSAGE value="Major comint with new staff classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Major comint with new staff classes" />
+    <MESSAGE value="Major update to Patient information management. built out the staffmember classes and implemented a few basic design patterns" />
+    <MESSAGE value=".class files" />
+    <option name="LAST_COMMIT_MESSAGE" value=".class files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/PatientNumber.java" />
@@ -587,20 +552,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/SalaryPayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#140#141#0" expanded="true" />
@@ -620,7 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/Nurse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="300">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -630,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="315">
           <caret line="21" column="11" selection-start-line="20" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -640,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="1020">
           <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -658,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/StaffTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="675">
           <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -670,6 +624,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
