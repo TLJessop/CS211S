@@ -4,9 +4,7 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.Slider;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
@@ -18,13 +16,18 @@ import javafx.stage.Stage;
 public class ImageApp extends Application {
 
     private Image[] puppyPics;
-    private ImageView puppyViewer;
+    private Image[] evilPics;
+    private ImageView memeViewer;
     private CheckBox discriptionCheck;
     private Button nextButton;
     private Text imageDiscripton;
     private VBox mainBox;
     private HBox controllBox;
-    private String[] descriptons;
+    private String[] puppyDescriptions;
+    private String[] evilDescriptions;
+    private RadioButton puppiesRButton;
+    private RadioButton evilRButton;
+    private ToggleGroup puppiesOrEvil;
     private Font font = Font.font(12.5);
     private double spacing = 10;
     private int index = 0;
@@ -42,15 +45,25 @@ public class ImageApp extends Application {
         controllBox.setSpacing(spacing);
         controllBox.setStyle("-fx-background-color: powderblue");
 
-        descriptons = new String[8];
-        descriptons[0] = "The best wake-up call";
-        descriptons[1] = "A new barkTec storage solution";
-        descriptons[2] = "A deep thought to wonder";
-        descriptons[3] = "My favorite co-worker";
-        descriptons[4] = "Some healthily skepticism";
-        descriptons[5] = "The cutest hipster";
-        descriptons[6] = "The world's most interesting puppy";
-        descriptons[7] = "Questionable investment advice";
+        puppyDescriptions = new String[8];
+        puppyDescriptions[0] = "The best wake-up call";
+        puppyDescriptions[1] = "A new barkTec storage solution";
+        puppyDescriptions[2] = "A deep thought to wonder";
+        puppyDescriptions[3] = "My favorite co-worker";
+        puppyDescriptions[4] = "Some healthily skepticism";
+        puppyDescriptions[5] = "The cutest hipster";
+        puppyDescriptions[6] = "The world's most interesting puppy";
+        puppyDescriptions[7] = "Questionable investment advice";
+
+        evilDescriptions = new String[8];
+        evilDescriptions[0] = "There goes your productivity";
+        evilDescriptions[1] = "No, power for you! Until my evil plans are made reality";
+        evilDescriptions[2] = "This is why your friends dog has a bad rap";
+        evilDescriptions[3] = "It is the only true sustance for them";
+        evilDescriptions[4] = "Why cats are not allowed in heaven";
+        evilDescriptions[5] = "The thoughts they hide behind their cuteness";
+        evilDescriptions[6] = "Of course you are";
+        evilDescriptions[7] = "Yeah, this is how your cat sees you";
 
         puppyPics = new Image[8];
         puppyPics[0] = new Image("VideoCodeAlong/Images/puppyCall.jpg",300,300,true,true);
@@ -62,29 +75,53 @@ public class ImageApp extends Application {
         puppyPics[6] = new Image("VideoCodeAlong/Images/brakPuppy.jpg",300,300,true,true);
         puppyPics[7] = new Image("VideoCodeAlong/Images/008-dog-memes.jpg",300,300,true,true);
 
-        puppyViewer = new ImageView(puppyPics[index]);
+        evilPics = new Image[8];
+        evilPics[0] = new Image("VideoCodeAlong/Images/plugPuller.jpg",300,300,true,true);
+        evilPics[1] = new Image("VideoCodeAlong/Images/chragerHosheg.jpg",300,300,true,true);
+        evilPics[2] = new Image("VideoCodeAlong/Images/blameShifting.jpg",300,300,true,true);
+        evilPics[3] = new Image("VideoCodeAlong/Images/soulEater.jpg",300,300,true,true);
+        evilPics[4] = new Image("VideoCodeAlong/Images/theKittenPrayer.jpg",300,300,true,true);
+        evilPics[5] = new Image("VideoCodeAlong/Images/voicesInTheirMinds.jpg",300,300,true,true);
+       evilPics[6] = new Image("VideoCodeAlong/Images/iAmDarkness.jpg",300,300,true,true);
+       evilPics[7] = new Image("VideoCodeAlong/Images/lazzy.jpg",300,300,true,true);
 
-        imageDiscripton = new Text(descriptons[index]);
+        memeViewer = new ImageView(puppyPics[index]);
+
+        imageDiscripton = new Text(puppyDescriptions[index]);
         imageDiscripton.setFont(font);
 
         nextButton = new Button("next");
         nextButton.setFont(font);
-        nextButton.setOnAction(this::nextButtonHandle);
+        nextButton.setOnAction(this::buttonHandler);
+
+        puppiesOrEvil = new ToggleGroup();
+
+        puppiesRButton = new RadioButton("Puppies!");
+        puppiesRButton.setFont(font);
+        puppiesRButton.setToggleGroup(puppiesOrEvil);
+        puppiesRButton.setOnAction(this::buttonHandler);
+
+        evilRButton = new RadioButton("Kittens");
+        evilRButton.setFont(font);
+        evilRButton.setToggleGroup(puppiesOrEvil);
+        evilRButton.setOnAction(this::buttonHandler);
+
+        puppiesOrEvil.selectToggle(puppiesRButton);
 
         discriptionCheck = new CheckBox("Show description");
         discriptionCheck.setSelected(true);
         discriptionCheck.setFont(font);
         discriptionCheck.setOnAction(this::discriptionCheckHandler);
 
-        controllBox.getChildren().addAll(discriptionCheck,nextButton);
+        controllBox.getChildren().addAll(puppiesRButton, evilRButton, discriptionCheck,nextButton);
 
-        mainBox.getChildren().addAll(puppyViewer,imageDiscripton,controllBox);
+        mainBox.getChildren().addAll(memeViewer,imageDiscripton,controllBox);
 
 
         Scene scene = new Scene(mainBox,400,300);
 
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Puppy pictures app");
+        primaryStage.setTitle("Cute memes");
         primaryStage.show();
     }
 
@@ -92,22 +129,26 @@ public class ImageApp extends Application {
         launch(args);
     }
 
-    private void nextButtonHandle(ActionEvent nextEvent){
+    private void buttonHandler(ActionEvent nextEvent){
         if (index < 7){
             index++;
         } else {
             index = 0;
         }
-
-        puppyViewer.setImage(puppyPics[index]);
-        imageDiscripton.setText(descriptons[index]);
+        if(puppiesOrEvil.getSelectedToggle() == puppiesRButton) {
+            memeViewer.setImage(puppyPics[index]);
+            imageDiscripton.setText(puppyDescriptions[index]);
+        }else if(puppiesOrEvil.getSelectedToggle() == evilRButton){
+            memeViewer.setImage(evilPics[index]);
+            imageDiscripton.setText(evilDescriptions[index]);
+        }
     }
 
     private void discriptionCheckHandler(ActionEvent checkEvent){
         if(discriptionCheck.isSelected()){
-            imageDiscripton.setText(descriptons[index]);
+            imageDiscripton.setVisible(true);
         } else {
-            imageDiscripton.setText("");
+            imageDiscripton.setVisible(false);
         }
     }
 
