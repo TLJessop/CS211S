@@ -15,6 +15,7 @@ import javafx.stage.Stage;
 
 public class ImageApp extends Application {
 
+    //Instance variables
     private Image[] puppyPics;
     private Image[] evilPics;
     private ImageView memeViewer;
@@ -31,20 +32,24 @@ public class ImageApp extends Application {
     private Font font = Font.font(12.5);
     private double spacing = 10;
     private int index = 0;
+    //Eno of Instance variables
 
     @Override
     public void start(Stage primaryStage) {
 
+        //Setting up root node
         mainBox = new VBox();
         mainBox.setAlignment(Pos.CENTER);
         mainBox.setSpacing(spacing);
         mainBox.setStyle("-fx-background-color: powderblue");
 
+        //Setting up the control holder
         controllBox = new HBox();
         controllBox.setAlignment(Pos.BOTTOM_CENTER);
         controllBox.setSpacing(spacing);
         controllBox.setStyle("-fx-background-color: powderblue");
 
+        //Setting the puppy meme descriptions
         puppyDescriptions = new String[8];
         puppyDescriptions[0] = "The best wake-up call";
         puppyDescriptions[1] = "A new barkTec storage solution";
@@ -55,6 +60,7 @@ public class ImageApp extends Application {
         puppyDescriptions[6] = "The world's most interesting puppy";
         puppyDescriptions[7] = "Questionable investment advice";
 
+        //Setting uo the cat memes descriptions
         evilDescriptions = new String[8];
         evilDescriptions[0] = "There goes your productivity";
         evilDescriptions[1] = "No, power for you! Until my evil plans are made reality";
@@ -65,6 +71,7 @@ public class ImageApp extends Application {
         evilDescriptions[6] = "Of course you are";
         evilDescriptions[7] = "Yeah, this is how your cat sees you";
 
+        //Setting the puppy memes
         puppyPics = new Image[8];
         puppyPics[0] = new Image("VideoCodeAlong/Images/puppyCall.jpg",300,300,true,true);
         puppyPics[1] = new Image("VideoCodeAlong/Images/megabitePuppy.jpg",300,300,true,true);
@@ -75,6 +82,7 @@ public class ImageApp extends Application {
         puppyPics[6] = new Image("VideoCodeAlong/Images/brakPuppy.jpg",300,300,true,true);
         puppyPics[7] = new Image("VideoCodeAlong/Images/008-dog-memes.jpg",300,300,true,true);
 
+        //Setting the cat memes
         evilPics = new Image[8];
         evilPics[0] = new Image("VideoCodeAlong/Images/plugPuller.jpg",300,300,true,true);
         evilPics[1] = new Image("VideoCodeAlong/Images/chragerHosheg.jpg",300,300,true,true);
@@ -90,10 +98,12 @@ public class ImageApp extends Application {
         imageDiscripton = new Text(puppyDescriptions[index]);
         imageDiscripton.setFont(font);
 
+        //change the image
         nextButton = new Button("next");
         nextButton.setFont(font);
         nextButton.setOnAction(this::buttonHandler);
 
+        //Meme set switching
         puppiesOrEvil = new ToggleGroup();
 
         puppiesRButton = new RadioButton("Puppies!");
@@ -108,6 +118,7 @@ public class ImageApp extends Application {
 
         puppiesOrEvil.selectToggle(puppiesRButton);
 
+        //Where or not the the description is shown
         discriptionCheck = new CheckBox("Show description");
         discriptionCheck.setSelected(true);
         discriptionCheck.setFont(font);
@@ -122,18 +133,22 @@ public class ImageApp extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("Cute memes");
         primaryStage.show();
-    }
+    }//start
 
     public static void main(String[] args) {
         launch(args);
-    }
+    }//main
 
     private void buttonHandler(ActionEvent nextEvent){
+
+        //Updating the meme index
         if (index < 7){
             index++;
         } else {
             index = 0;
         }
+
+        //Switching the meme set
         if(puppiesOrEvil.getSelectedToggle() == puppiesRButton) {
             memeViewer.setImage(puppyPics[index]);
             imageDiscripton.setText(puppyDescriptions[index]);
@@ -141,7 +156,7 @@ public class ImageApp extends Application {
             memeViewer.setImage(evilPics[index]);
             imageDiscripton.setText(evilDescriptions[index]);
         }
-    }
+    }//buttonHandler
 
     private void discriptionCheckHandler(ActionEvent checkEvent){
         if(discriptionCheck.isSelected()){
@@ -149,7 +164,7 @@ public class ImageApp extends Application {
         } else {
             imageDiscripton.setVisible(false);
         }
-    }
+    }//discriptionCheckHandler
 
 }//ImageApp
 
