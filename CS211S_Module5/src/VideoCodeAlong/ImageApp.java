@@ -59,7 +59,7 @@ public class ImageApp extends Application {
         evilDescriptions[0] = "There goes your productivity";
         evilDescriptions[1] = "No, power for you! Until my evil plans are made reality";
         evilDescriptions[2] = "This is why your friends dog has a bad rap";
-        evilDescriptions[3] = "It is the only true sustance for them";
+        evilDescriptions[3] = "It is the only true sustenance for them";
         evilDescriptions[4] = "Why cats are not allowed in heaven";
         evilDescriptions[5] = "The thoughts they hide behind their cuteness";
         evilDescriptions[6] = "Of course you are";
@@ -117,7 +117,6 @@ public class ImageApp extends Application {
 
         mainBox.getChildren().addAll(memeViewer,imageDiscripton,controllBox);
 
-
         Scene scene = new Scene(mainBox,400,300);
 
         primaryStage.setScene(scene);
@@ -151,7 +150,6 @@ public class ImageApp extends Application {
             imageDiscripton.setVisible(false);
         }
     }
-
 
 }//ImageApp
 
