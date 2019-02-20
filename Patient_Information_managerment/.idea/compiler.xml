@@ -10,6 +10,6 @@
         <module name="CS211S_Module1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="9" />
   </component>
 </project>
