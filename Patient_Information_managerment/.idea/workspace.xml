@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f624bdf8-b34a-4360-bcc2-536d4ebf8dcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Module5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/Homework/StickFigure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/META-INF/Module5.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/DiglogBoxss.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/ImageApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/008-dog-memes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/blameShifting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/brakPuppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/chragerHosheg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/iAmDarkness.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/lazzy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/megabitePuppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/plugPuller.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/puppyCall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/puppyInGlasses.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/skeptical-puppy-meme.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/snugglesEmailPuppy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/soulEater.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/teddybearPuppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/theKittenPrayer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/Images/voicesInTheirMinds.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/MouseClicks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/MouseTail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/RectangleTransformations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module5/out/production/Module5/VideoCodeAlong/RubberLine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModleViewerSimple/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModleViewerSimple/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CS211S_Module1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/ErPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/ErPatient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/InPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/InPatient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/OutPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/OutPatient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$AgeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$FirstNameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$FirstNameComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$PatientIdComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient$PatientIdComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/PatientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/PatientFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/PatientStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/PatientStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/PatientTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Patients/PatientTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Doctor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Doctor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Doctor$DoctorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Doctor$DoctorBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/ErTechnican.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/ErTechnican.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/HourlyPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/HourlyPayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Nurse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Nurse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Payer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/Payer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/ProperPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/ProperPayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/SalaryPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/SalaryPayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/StaffMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/StaffMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/StaffTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tljessop/Person/Staff/StaffTester.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,35 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-end-column="26" />
+            <state relative-caret-position="-517">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-                <element signature="e#2587#2588#0" expanded="true" />
-                <element signature="e#2621#2622#0" expanded="true" />
-                <element signature="e#2664#2665#0" expanded="true" />
-                <element signature="e#2696#2697#0" expanded="true" />
-                <element signature="e#2737#2738#0" expanded="true" />
-                <element signature="e#3095#3096#0" expanded="true" />
-                <element signature="e#3119#3120#0" expanded="true" />
-                <element signature="e#2771#2772#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#2847#2848#0" expanded="true" />
-                <element signature="e#2896#2897#0" expanded="true" />
-                <element signature="e#2938#2939#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
-                <element signature="e#3036#3037#0" expanded="true" />
-                <element signature="e#3087#3088#0" expanded="true" />
-                <element signature="e#3150#3151#0" expanded="true" />
-                <element signature="e#3204#3205#0" expanded="true" />
-                <element signature="e#3396#3397#0" expanded="true" />
-                <element signature="e#3426#3427#0" expanded="true" />
-                <element signature="e#3235#3236#0" expanded="true" />
-                <element signature="e#3265#3266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,10 +51,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="-420">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2550#2551#0" expanded="true" />
                 <element signature="e#2578#2579#0" expanded="true" />
               </folding>
             </state>
@@ -150,19 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-973">
+            <state relative-caret-position="108">
               <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2253#2254#0" expanded="true" />
-                <element signature="e#2318#2319#0" expanded="true" />
-                <element signature="e#2368#2369#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -171,7 +87,47 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/OutPatient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="e#1930#1931#0" expanded="true" />
+                <element signature="e#1973#1974#0" expanded="true" />
+                <element signature="e#2153#2154#0" expanded="true" />
+                <element signature="e#2192#2193#0" expanded="true" />
+                <element signature="e#2255#2256#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+                <element signature="e#2357#2358#0" expanded="true" />
+                <element signature="e#2397#2398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/Patient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,7 +304,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550651138017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550681778151" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -458,7 +414,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547926755898</updated>
-      <workItem from="1550628733891" duration="20937000" />
+      <workItem from="1550628733891" duration="21222000" />
+      <workItem from="1550651739393" duration="183000" />
+      <workItem from="1550681751456" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="updated the ids and fleshed out StaffMember a little more">
       <created>1548438905609</created>
@@ -509,11 +467,32 @@
       <option name="project" value="LOCAL" />
       <updated>1549500118492</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".class and backside files">
+      <created>1550650942076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550650942076</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Simple module view controller gui with a watered down version of ErPatient">
+      <created>1550651138074</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550651138074</updated>
+    </task>
+    <task id="LOCAL-00010" summary="m">
+      <created>1550651164896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550651164896</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20937000" />
+    <option name="totallyTimeSpent" value="21823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,14 +511,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32870865" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4985591" visible="true" weight="0.23479189" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4985591" visible="true" weight="0.24332978" />
       <window_info id="Structure" order="6" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
       <window_info id="Favorites" order="7" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.27286357" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3298351" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.9655172" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.9655172" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
@@ -549,7 +526,8 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32983795" />
-      <window_info anchor="right" id="Database" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -558,40 +536,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32977587" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Learn" order="3" weight="0.32870865" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4985591" visible="true" weight="0.23479189" />
-      <window_info id="Structure" order="6" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
-      <window_info id="Favorites" order="7" sideWeight="0.50144094" side_tool="true" weight="0.30839002" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.27286357" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32983795" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="4" visible="true" weight="0.9655172" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3268366" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.25037482" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.38904363" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32983795" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32977587" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -606,7 +552,9 @@
     <MESSAGE value="Major update to Patient information management. built out the staffmember classes and implemented a few basic design patterns" />
     <MESSAGE value=".class files" />
     <MESSAGE value=".class and backside files" />
-    <option name="LAST_COMMIT_MESSAGE" value=".class and backside files" />
+    <MESSAGE value="Simple module view controller gui with a watered down version of ErPatient" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/PatientNumber.java" />
@@ -656,23 +604,6 @@
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/OutPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2397#2398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,19 +676,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/OutPatient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/InPatient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/OutPatient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/InPatient.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Staff/HourlyPayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -786,58 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2621#2622#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2696#2697#0" expanded="true" />
-            <element signature="e#2737#2738#0" expanded="true" />
-            <element signature="e#3095#3096#0" expanded="true" />
-            <element signature="e#3119#3120#0" expanded="true" />
-            <element signature="e#2771#2772#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2847#2848#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2938#2939#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3036#3037#0" expanded="true" />
-            <element signature="e#3087#3088#0" expanded="true" />
-            <element signature="e#3150#3151#0" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3396#3397#0" expanded="true" />
-            <element signature="e#3426#3427#0" expanded="true" />
-            <element signature="e#3235#3236#0" expanded="true" />
-            <element signature="e#3265#3266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
@@ -848,28 +716,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="108">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/ErPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/OutPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/PatientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Tljessop/Person/Patients/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2551#0" expanded="true" />
             <element signature="e#2578#2579#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/Patient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ModleViewerSimple/ErPatientViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-973">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="-517">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2253#2254#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
