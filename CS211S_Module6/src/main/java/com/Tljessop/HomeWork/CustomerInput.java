@@ -120,7 +120,7 @@ public class CustomerInput extends Application {
                 setError("An invalid order number was found on line :" + (parsedLines + 1));
             } catch (IOException e) {
                 exceptionFlag = true;
-                e.printStackTrace();
+                setError("An IOException occurred");
             }catch (NoSuchElementException e){
                 exceptionFlag = true;
                 setError("Missing field while parsing line" + (parsedLines+1));
