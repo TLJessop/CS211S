@@ -12,7 +12,8 @@ public class SetPractice {
 
     public static void main(String[] args) {
 
-        Set<Business> businessSet = new TreeSet<Business>(Business.OWNER_ID_COMPARATOR);
+        Set<Business> businessSet = new HashSet<>();
+        String id = "0000024-02-999";
 
         LocalDateTime start  = LocalDateTime.now();
         fillSet(businessSet);
@@ -20,7 +21,47 @@ public class SetPractice {
 
         System.out.println("Time to fill " + Duration.between(start,end).toMillis() + " milliseconds");
 
+
+        start = LocalDateTime.now();
+        findBizIterator(id,businessSet);
+        end = LocalDateTime.now();
+
+        System.out.println("Time to find " + Duration.between(start,end).toMillis() + " milliseconds");
+
+        start = LocalDateTime.now();
+        delBizInterator(id,businessSet);
+        end = LocalDateTime.now();
+
+        System.out.println("Time to del " + Duration.between(start,end).toMillis() + " milliseonds");
+
     }//main
+
+
+    private static void findBizIterator(String id, Set<Business> set){
+        Iterator<Business> iterator = set.iterator();
+
+        while (iterator.hasNext()){
+            if (iterator.next().getId().equals(id)){
+                return;
+            }
+        }
+    }
+
+    private static void delBizInterator (String id, Set<Business> set){
+        Iterator<Business> iterator = set.iterator();
+
+        while (iterator.hasNext()){
+
+            if (iterator.next().getId().equals(id)){
+                iterator.remove();
+                return;
+            }
+        }
+    }
+
+
+
+
 
     private static void fillSet(Set set){
 
@@ -32,10 +73,6 @@ public class SetPractice {
                 Scanner lineScanner = new Scanner(fileScanner.nextLine());
                 lineScanner.useDelimiter(",");
 
-                /*
-                    public Business(String id, String ownerName, String name, String street, String city, String state, String zip)
-                    ID,Ownership_Name,DBA Name,Street_Address,City,State,Zip_Code
-                 */
                 String id = lineScanner.next();
                 String owner = lineScanner.next();
                 String name = lineScanner.next();
