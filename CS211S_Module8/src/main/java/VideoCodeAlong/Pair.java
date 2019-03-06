@@ -1,4 +1,4 @@
-package VidoeCodeAlong;
+package VideoCodeAlong;
 
 public class Pair<T> {
 
