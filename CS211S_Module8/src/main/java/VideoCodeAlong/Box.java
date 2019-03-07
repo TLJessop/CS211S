@@ -1,6 +1,6 @@
 package VideoCodeAlong;
 
-public class Box<T> {
+public class Box<T extends Comparable<T> > implements Comparable<Box<T>> {
 
     private T item;
 
@@ -38,5 +38,10 @@ public class Box<T> {
         } else {
             return false;
         }
+    }
+
+    @Override
+    public int compareTo(Box<T> other) {
+        return this.item.compareTo(other.item);
     }
 }//Box
