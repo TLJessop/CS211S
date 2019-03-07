@@ -2,6 +2,7 @@ package HomeWork;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * This class hold a list of the specifed type and can return a random item from that list
@@ -103,4 +104,12 @@ public class RandomBox<T> {
         }
     }
 
+    /**
+     * Represents the RandomBox as numeric hash
+     * @return The hashed representation of the contents of the RandomBox
+     */
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(itemList);
+    }
 }//RandomBox
