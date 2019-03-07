@@ -25,7 +25,6 @@ public abstract class Item implements Comparable<Item> {
 
     //End of Getters and Setters
 
-
     @Override
     public int compareTo(Item otherItem) {
             return this.name.compareTo(otherItem.name);

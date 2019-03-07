@@ -20,6 +20,15 @@ public abstract class Clothing extends Item implements Comparable<Item> {
 
     @Override
     public int compareTo(Item other){
-        return 0;
+        if (other instanceof Clothing){
+            Clothing otherClothing = (Clothing) other;
+            if (this.getName().compareTo(other.getName()) != 0){
+                return this.getName().compareTo(otherClothing.getName());
+            } else {
+                return this.size.compareTo(otherClothing.size);
+            }
+        }else {
+            return -1;
+        }
     }
 }//Clothing
