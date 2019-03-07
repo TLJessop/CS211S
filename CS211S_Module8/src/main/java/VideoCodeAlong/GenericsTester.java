@@ -15,12 +15,15 @@ public class GenericsTester {
 
         fillArray(nums);
         System.out.println(Arrays.toString(nums));
-        System.out.println(ArrayUtilities.findDupliicates(nums)+"\n");
+        System.out.println("Duplicates " + ArrayUtilities.findDupliicates(nums));
+        System.out.println("Min " + ArrayUtilities.findMinAndMax(nums).getThing1() + " Max " + ArrayUtilities.findMinAndMax(nums).getThing2());
+
+        System.out.println();
 
         fillArray(words);
         System.out.println(Arrays.toString(words));
-        System.out.println(ArrayUtilities.findDupliicates(words));
-
+        System.out.println("Duplicates " + ArrayUtilities.findDupliicates(words));
+        System.out.println("Min " + ArrayUtilities.findMinAndMax(words).getThing1() + " Max " + ArrayUtilities.findMinAndMax(words).getThing2());
     }//main
 
     private static void fillArray(Integer[] nums){
