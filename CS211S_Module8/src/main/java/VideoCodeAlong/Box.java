@@ -1,6 +1,6 @@
 package VideoCodeAlong;
 
-public class Box<T extends Comparable<T> > implements Comparable<Box<T>> {
+public class Box<T extends Comparable<? super T> > implements Comparable<Box<T>> {
 
     private T item;
 

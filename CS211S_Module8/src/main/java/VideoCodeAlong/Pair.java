@@ -3,34 +3,54 @@ package VideoCodeAlong;
 public class Pair<T> {
 
     //Instance data
-    private T thing1;
-    private T thing2;
+    private T first;
+    private T second;
 
     //Getters and Setters
-    public Pair(T thing1, T thing2){
-        this.thing1 = thing1;
-        this.thing2 = thing2;
+    public Pair(T first, T second){
+        this.first = first;
+        this.second = second;
     }
 
-    public T getThing1() {
-        return thing1;
+    public T getFirst() {
+        return first;
     }
 
-    public void setThing1(T thing1) {
-        this.thing1 = thing1;
+    public void setFirst(T first) {
+        this.first = first;
     }
 
-    public T getThing2() {
-        return thing2;
+    public T getSecond() {
+        return second;
     }
 
-    public void setThing2(T thing2) {
-        this.thing2 = thing2;
+    public void setSecond(T second) {
+        this.second = second;
     }
     //End of Getters and Setters
 
     @Override
     public String toString(){
-        return  "Pair holding " + thing1.toString() + " and " + thing2.toString();
+        return  "Pair holding " + first.toString() + " and " + second.toString();
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj == null) return false;
+        if (obj == this) return true;
+
+        if (obj instanceof Pair<?>){
+            Pair<?> otherPair = (Pair<?>) obj;
+
+            if ((this.first.equals(otherPair.first) && this.second.equals(otherPair.second)) ||
+                    (this.first.equals(otherPair.second) && this.second.equals(otherPair.first))){
+                return true;
+            } else {
+                return false;
+            }
+
+        } else {
+            return false;
+        }
     }
 }//Pair

@@ -16,14 +16,14 @@ public class GenericsTester {
         fillArray(nums);
         System.out.println(Arrays.toString(nums));
         System.out.println("Duplicates " + ArrayUtilities.findDupliicates(nums));
-        System.out.println("Min " + ArrayUtilities.findMinAndMax(nums).getThing1() + " Max " + ArrayUtilities.findMinAndMax(nums).getThing2());
+        System.out.println("Min " + ArrayUtilities.findMinAndMax(nums).getFirst() + " Max " + ArrayUtilities.findMinAndMax(nums).getSecond());
 
         System.out.println();
 
         fillArray(words);
         System.out.println(Arrays.toString(words));
         System.out.println("Duplicates " + ArrayUtilities.findDupliicates(words));
-        System.out.println("Min " + ArrayUtilities.findMinAndMax(words).getThing1() + " Max " + ArrayUtilities.findMinAndMax(words).getThing2());
+        System.out.println("Min " + ArrayUtilities.findMinAndMax(words).getFirst() + " Max " + ArrayUtilities.findMinAndMax(words).getSecond());
     }//main
 
     private static void fillArray(Integer[] nums){
