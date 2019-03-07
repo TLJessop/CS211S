@@ -17,4 +17,18 @@ public class ArrayUtilities {
         return returnList;
     }
 
+    public static <T extends Comparable<T>> Pair<T> findMinAndMax(T[] things){
+        T min = things[0], max = things[0];
+
+        for (int i = 0; i < things.length; i++) {
+            if (things[i].compareTo(max) > 0){
+                max = things[i];
+            } else if (things[i].compareTo(min) < 0){
+                min = things[i];
+            }
+        }
+
+        return new Pair<>(min,max);
+    }
+
 }//ArrayUtilities
