@@ -28,7 +28,7 @@ public abstract class Clothing extends Item implements Comparable<Item> {
                 return this.size.compareTo(otherClothing.size);
             }
         }else {
-            return -1;
+            throw new IllegalArgumentException("That was not Clothing object");
         }
     }
 }//Clothing
