@@ -48,6 +48,14 @@ public class RandomBox<T> {
     }
 
     /**
+     * Retrieves a count of items in the RandomBox
+     * @return The number items in the box
+     */
+    public int getNumberOfItems(){
+        return itemList.size();
+    }
+
+    /**
      * Pick random box item
      * @return the winning item
      * @throws IllegalStateException This exception is thrown if this method is called on a empty box

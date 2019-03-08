@@ -39,6 +39,7 @@ public class RandomBoxDriver {
         System.out.println(uniqueWinners);
         System.out.println("Code should take some logical action but should NOT return a list with duplicate winners or enter an infinite loop.");
         uniqueWinners = pickMultipleWinners(uniqueNameBoxTest, 4);
+        System.out.println(uniqueWinners);
 
 
 	}
@@ -46,6 +47,8 @@ public class RandomBoxDriver {
 	//My added method
 	public static <T> List<T>  pickMultipleWinners(RandomBox<T> box, int numberOfWinners){
 		List<T> returnList = new ArrayList<>();
+
+		numberOfWinners = numberOfWinners > box.getNumberOfItems() ? box.getNumberOfItems() : numberOfWinners;
 
 		while (returnList.size() < numberOfWinners){
 			T winner = box.drawWinner();
