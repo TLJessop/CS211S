@@ -3,7 +3,7 @@ package SpiderApp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Genus {
+public class Genus implements Comparable<Genus>{
 
     /*
         instance data variables
@@ -55,6 +55,15 @@ compareTo method (the class should implement Comparable<MyClass>)
             }
         }else {
             return false;
+        }
+    }
+
+    @Override
+    public int compareTo(Genus otherGenus){
+        if (this.name.compareTo(otherGenus.name) != 0){
+            return this.name.compareTo(otherGenus.name);
+        } else {
+            return Integer.compare(this.getNumberOfSpecices(), otherGenus.getNumberOfSpecices());
         }
     }
 }//Genus
