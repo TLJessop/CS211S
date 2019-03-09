@@ -1,9 +1,9 @@
 package SpiderApp;
 
-public class Specice {
+public class Specie {
 
     private String name;
     private Genus genus;
 
 
-}//Specice
+}//Specie

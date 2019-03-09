@@ -6,7 +6,7 @@ import java.util.List;
 public class Genus {
 
     private String name;
-    private List<Specice> speciesList;
+    private List<Specie> speciesList;
 
     public Genus(String name){
         this.name = name;
@@ -21,7 +21,7 @@ public class Genus {
         return speciesList.size();
     }
 
-    public boolean addSpecies(Specice specice){
-        return speciesList.add(specice);
+    public boolean addSpecies(Specie specie){
+        return speciesList.add(specie);
     }
 }//Genus
