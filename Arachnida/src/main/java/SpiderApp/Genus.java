@@ -30,6 +30,11 @@ public class Genus implements Comparable<Genus>{
     }
 
     @Override
+    public String toString(){
+        return this.name + " members: " + speciesList.toString();
+    }
+
+    @Override
     public boolean equals(Object obj){
         if (obj == null) return false;
         if (obj == this) return true;
