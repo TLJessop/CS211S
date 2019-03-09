@@ -12,8 +12,6 @@ public class CleanFile {
 
             Scanner fileScanner = new Scanner(fileReader);
 
-            int lineCount = 0;
-
             while (fileScanner.hasNext()){
                 String line = fileScanner.nextLine().replace('|',',');
                 char[] chars = line.toCharArray();
@@ -22,25 +20,31 @@ public class CleanFile {
                     if (chars[i]==',') commaCount++;
                 }
 
-                if (commaCount>=26) {
+                if (commaCount >= 26) {
+
                     Scanner lineScaner = new Scanner(line);
                     lineScaner.useDelimiter(",");
+
+                    //Skipping over not needed values
                     for (int i = 0; i < 3 ; i++) {
                         lineScaner.next();
                     }
-                    String genious = lineScaner.next();
+
+                    //Grabbing the genus name
+                    String genus = lineScaner.next();
+
+                    //Skipping another column
                     lineScaner.next();
+
+                    //Grabbing the genus name
                     String species = lineScaner.next();
 
-                    System.out.println(genious + " "+ species + "  " + line );
-                    lineCount++;
+                    //Writing the cleaned file
+                    if (!genus.isEmpty() && !species.isEmpty()){
+                    out.println(genus+","+species);
+                    }
                 }
             }
-
-            System.out.println(lineCount);
-
-
-
 
         } catch (IOException e){
             e.printStackTrace();
