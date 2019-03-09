@@ -1,10 +1,10 @@
 package SpiderApp;
 
-public class Family {
+public class Genus {
 
     private String name;
     private int numOfSpecies;
 
 
 
-}//SpiderApp.Family
+}//Genus
