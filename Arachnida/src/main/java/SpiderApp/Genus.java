@@ -5,6 +5,15 @@ import java.util.List;
 
 public class Genus {
 
+    /*
+        instance data variables
+constructor
+getters/setters
+toString
+equals method
+compareTo method (the class should implement Comparable<MyClass>)
+     */
+
     private String name;
     private List<Specie> speciesList;
 
@@ -23,5 +32,29 @@ public class Genus {
 
     public boolean addSpecies(Specie specie){
         return speciesList.add(specie);
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj == null) return false;
+        if (obj == this) return true;
+
+        if (obj.getClass() == Genus.class){
+            Genus otherGenus = (Genus) obj;
+
+            if(this.name == otherGenus.name){
+                return true;
+            } else {
+                if (this.getNumberOfSpecices() == otherGenus.getNumberOfSpecices()) {
+                    if (this.speciesList.containsAll(otherGenus.speciesList) && otherGenus.speciesList.containsAll(this.speciesList)) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                } else return false;
+            }
+        }else {
+            return false;
+        }
     }
 }//Genus
