@@ -7,33 +7,21 @@ public class Genus implements Comparable<Genus>{
 
     //Instance data
     private String name;
-    private List<Specie> speciesList;
 
     //Constructor
     public Genus(String name){
         this.name = name;
-        speciesList = new ArrayList<>();
     }
 
     // The lack of a name setter is because I don't think that should be changeable
-    //Getter methods
+    //Getter method
     public String getName() {
         return name;
     }
 
-    public int getNumberOfSpecies(){
-        return speciesList.size();
-    }
-    //End of getter methods
-
-    //Sudo setter method
-    public boolean addSpecies(Specie specie){
-        return speciesList.add(specie);
-    }
-
     @Override
     public String toString(){
-        return this.name + " members: " + speciesList.toString();
+        return this.name ;
     }
 
     @Override
@@ -43,29 +31,14 @@ public class Genus implements Comparable<Genus>{
 
         if (obj.getClass() == Genus.class){
             Genus otherGenus = (Genus) obj;
-
-            if(this.name == otherGenus.name){
-                return true;
-            } else {
-                if (this.getNumberOfSpecies() == otherGenus.getNumberOfSpecies()) {
-                    if (this.speciesList.containsAll(otherGenus.speciesList) && otherGenus.speciesList.containsAll(this.speciesList)) {
-                        return true;
-                    } else {
-                        return false;
-                    }
-                } else return false;
-            }
-        }else {
+            return this.name == otherGenus.name;
+        } else {
             return false;
         }
     }
 
     @Override
     public int compareTo(Genus otherGenus){
-        if (this.name.compareTo(otherGenus.name) != 0){
             return this.name.compareTo(otherGenus.name);
-        } else {
-            return Integer.compare(this.getNumberOfSpecies(), otherGenus.getNumberOfSpecies());
-        }
     }
 }//Genus
