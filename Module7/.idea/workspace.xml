@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9a95621-7ff5-432a-b988-3a3fb6b20c6a" name="Default Changelist" comment="Added methods to setpractice" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.core.resources.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/BadCustomerInputDataSituation2.csv" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileReading.class" />
+    <ignored path="../CS211S_Module6/src/main/resources/numbers.txt" />
+    <ignored path="../CS211S_Module6/src/main/resources/customers.txt" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/IllegalCharacterException.class" />
+    <ignored path="../CS211SMod6/src/VideoCodeAlong/FileWritingAndReading.java" />
+    <ignored path="../CS211S_Module6/target/classes/BadCustomerInputDataSituation1.csv" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileWriting$Customer.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/ShipingCodes.class" />
+    <ignored path="../JavaMart/.settings/org.eclipse.m2e.core.prefs" />
+    <ignored path="../JavaMart/.settings/org.eclipse.core.resources.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/CustomerInput.class" />
+    <ignored path="../JavaMart/.project" />
+    <ignored path="../CS211S_Module6/.idea/workspace.xml" />
+    <ignored path="../JavaMart/.classpath" />
+    <ignored path="../CS211S_Module6/target/classes/hello.txt" />
+    <ignored path="../CS211SMod6/.idea/modules.xml" />
+    <ignored path="../CS211SMod6/.idea/vcs.xml" />
+    <ignored path="../JavaMart/.settings/org.eclipse.jdt.apt.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileWriting.class" />
+    <ignored path="../CS211SMod6/out/production/CS211SMod6/VideoCodeAlong/FileWritingAndReading.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/NotValidShippingException.class" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.jdt.core.prefs" />
+    <ignored path="../CS211SMod6/out/production/CS211SMod6/VideoCodeAlong/text/hello.txt" />
+    <ignored path="../CS211S_Module6/src/main/resources/hello.txt" />
+    <ignored path="../CS211S_Module6/target/classes/customers.txt" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/Customer.class" />
+    <ignored path="../CS211S_Module6/target/classes/META-INF/CS211S_Module6.kotlin_module" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/NumberWriter.class" />
+    <ignored path="../CS211S_Module6/target/classes/GoodCustomerInputData.csv" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.m2e.core.prefs" />
+    <ignored path="../CS211SMod6/src/VideoCodeAlong/text/hello.txt" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.jdt.apt.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/numbers.txt" />
+    <ignored path="../JavaMart/.settings/org.eclipse.jdt.core.prefs" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/IteratorSmallExmaple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/ListPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/SetPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/MapPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/Business.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SFBus.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1892100">
+              <caret line="157675" column="93" selection-start-line="157675" selection-start-column="93" selection-end-line="157675" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Class With Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/VideoCodeAlong/IteratorSmallExmaple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VideoCodeAlong/ListPractice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VideoCodeAlong/Business.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VideoCodeAlong/SetPractice.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SFBus.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/VideoCodeAlong/MapPractice.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="704" />
+    <option name="y" value="18" />
+    <option name="width" value="656" />
+    <option name="height" value="750" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Module7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoCodeAlong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551623276336" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MapPractice">
+    <configuration name="IteratorSmallExmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoCodeAlong.IteratorSmallExmaple" />
+      <module name="Module7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoCodeAlong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoCodeAlong.ListPractice" />
+      <module name="Module7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoCodeAlong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoCodeAlong.MapPractice" />
+      <module name="Module7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoCodeAlong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VideoCodeAlong.SetPractice" />
+      <module name="Module7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VideoCodeAlong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MapPractice" />
+        <item itemvalue="Application.SetPractice" />
+        <item itemvalue="Application.ListPractice" />
+        <item itemvalue="Application.IteratorSmallExmaple" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9a95621-7ff5-432a-b988-3a3fb6b20c6a" name="Default Changelist" comment="" />
+      <created>1551413878848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551413878848</updated>
+      <workItem from="1551413883372" duration="27945000" />
+      <workItem from="1551623337744" duration="3246000" />
+      <workItem from="1552110347736" duration="667000" />
+    </task>
+    <task id="LOCAL-00001" summary="m">
+      <created>1551414020673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551414020673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="m">
+      <created>1551414166148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551414166148</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Set up week project">
+      <created>1551414248816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551414248816</updated>
+    </task>
+    <task id="LOCAL-00004" summary="List and Set Practice">
+      <created>1551504536086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551504536086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Practice with maps">
+      <created>1551624049315</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551624049315</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31858000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="-3" width="1311" height="771" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11014949" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26511627" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882884" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32882884" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3183183" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="m" />
+    <MESSAGE value="Set up week project" />
+    <MESSAGE value="List and Set Practice" />
+    <MESSAGE value="Added methods to setpractice" />
+    <MESSAGE value="Practice with maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice with maps" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/IteratorSmallExmaple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/ListPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/SetPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/Business.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SFBus.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892100">
+          <caret line="157675" column="93" selection-start-line="157675" selection-start-column="93" selection-end-line="157675" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VideoCodeAlong/MapPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Module7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
