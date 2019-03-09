@@ -21,8 +21,18 @@ public class CleanFile {
                 for (int i = 0; i < chars.length ; i++) {
                     if (chars[i]==',') commaCount++;
                 }
+
                 if (commaCount>=26) {
-                    System.out.println(commaCount + " commas " + line);
+                    Scanner lineScaner = new Scanner(line);
+                    lineScaner.useDelimiter(",");
+                    for (int i = 0; i < 3 ; i++) {
+                        lineScaner.next();
+                    }
+                    String genious = lineScaner.next();
+                    lineScaner.next();
+                    String species = lineScaner.next();
+
+                    System.out.println(genious + " "+ species + "  " + line );
                     lineCount++;
                 }
             }
