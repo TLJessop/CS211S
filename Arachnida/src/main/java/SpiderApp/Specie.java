@@ -1,6 +1,6 @@
 package SpiderApp;
 
-public class Specie {
+public class Specie implements Comparable<Specie>{
 
     private String name;
     private Genus genus;
@@ -43,5 +43,14 @@ public class Specie {
     @Override
     public String toString(){
         return this.name;
+    }
+
+    @Override
+    public int compareTo(Specie otherSpecie){
+        if (this.name.compareTo(otherSpecie.name) != 0){
+            return this.name.compareTo(otherSpecie.name);
+        } else {
+            return this.genus.compareTo(otherSpecie.genus);
+        }
     }
 }//Specie
