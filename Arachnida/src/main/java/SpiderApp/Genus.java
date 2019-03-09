@@ -5,23 +5,17 @@ import java.util.List;
 
 public class Genus implements Comparable<Genus>{
 
-    /*
-        instance data variables
-constructor
-getters/setters
-toString
-equals method
-compareTo method (the class should implement Comparable<MyClass>)
-     */
-
+    //Instance data
     private String name;
     private List<Specie> speciesList;
 
+    //Constructor
     public Genus(String name){
         this.name = name;
         speciesList = new ArrayList<>();
     }
 
+    //Getter methods
     public String getName() {
         return name;
     }
@@ -29,6 +23,7 @@ compareTo method (the class should implement Comparable<MyClass>)
     public int getNumberOfSpecies(){
         return speciesList.size();
     }
+    //End of getter methods
 
     public boolean addSpecies(Specie specie){
         return speciesList.add(specie);
