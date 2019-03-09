@@ -6,11 +6,11 @@ import java.util.List;
 public class Genus {
 
     private String name;
-    private List<Specice> speciceList;
+    private List<Specice> speciesList;
 
     public Genus(String name){
         this.name = name;
-        speciceList = new ArrayList<>();
+        speciesList = new ArrayList<>();
     }
 
     public String getName() {
@@ -18,10 +18,10 @@ public class Genus {
     }
 
     public int getNumberOfSpecices(){
-        return speciceList.size();
+        return speciesList.size();
     }
 
     public boolean addSpecies(Specice specice){
-        return speciceList.add(specice);
+        return speciesList.add(specice);
     }
 }//Genus
