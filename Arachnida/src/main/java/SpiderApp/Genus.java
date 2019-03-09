@@ -26,7 +26,7 @@ compareTo method (the class should implement Comparable<MyClass>)
         return name;
     }
 
-    public int getNumberOfSpecices(){
+    public int getNumberOfSpecies(){
         return speciesList.size();
     }
 
@@ -45,7 +45,7 @@ compareTo method (the class should implement Comparable<MyClass>)
             if(this.name == otherGenus.name){
                 return true;
             } else {
-                if (this.getNumberOfSpecices() == otherGenus.getNumberOfSpecices()) {
+                if (this.getNumberOfSpecies() == otherGenus.getNumberOfSpecies()) {
                     if (this.speciesList.containsAll(otherGenus.speciesList) && otherGenus.speciesList.containsAll(this.speciesList)) {
                         return true;
                     } else {
@@ -63,7 +63,7 @@ compareTo method (the class should implement Comparable<MyClass>)
         if (this.name.compareTo(otherGenus.name) != 0){
             return this.name.compareTo(otherGenus.name);
         } else {
-            return Integer.compare(this.getNumberOfSpecices(), otherGenus.getNumberOfSpecices());
+            return Integer.compare(this.getNumberOfSpecies(), otherGenus.getNumberOfSpecies());
         }
     }
 }//Genus
