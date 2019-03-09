@@ -10,5 +10,15 @@ public class Specie {
         this.genus = genus;
     }
 
+    public String getName(){
+        return name;
+    }
 
+    public Genus getGenus() {
+        return genus;
+    }
+
+    public void setGenus(Genus genus) {
+        this.genus = genus;
+    }
 }//Specie
