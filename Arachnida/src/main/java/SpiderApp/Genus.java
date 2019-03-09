@@ -15,6 +15,7 @@ public class Genus implements Comparable<Genus>{
         speciesList = new ArrayList<>();
     }
 
+    // The lack of a name setter is because I don't think that should be changeable
     //Getter methods
     public String getName() {
         return name;
@@ -25,6 +26,7 @@ public class Genus implements Comparable<Genus>{
     }
     //End of getter methods
 
+    //Sudo setter method
     public boolean addSpecies(Specie specie){
         return speciesList.add(specie);
     }
