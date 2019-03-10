@@ -3,9 +3,9 @@ package SpiderApp;
 public class Specie implements Comparable<Specie>{
 
     private String name;
-    private Genus genus;
+    private String genus;
 
-    public Specie(String name , Genus genus){
+    public Specie(String name , String genus){
         this.name = name;
         this.genus = genus;
     }
@@ -14,11 +14,11 @@ public class Specie implements Comparable<Specie>{
         return name;
     }
 
-    public Genus getGenus() {
+    public String getGenus() {
         return genus;
     }
 
-    public void setGenus(Genus genus) {
+    public void setGenus(String genus) {
         this.genus = genus;
     }
 
@@ -30,7 +30,7 @@ public class Specie implements Comparable<Specie>{
         if(obj.getClass() == Specie.class){
             Specie otherSpecie = (Specie) obj;
             if (this.name.equalsIgnoreCase(otherSpecie.name) &&
-                this.genus.equals(otherSpecie)){
+                this.genus.equals(otherSpecie.genus)){
                 return true;
             } else {
                 return false;

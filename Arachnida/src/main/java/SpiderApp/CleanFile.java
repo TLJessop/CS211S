@@ -1,7 +1,7 @@
 package SpiderApp;
 
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class CleanFile {
 
@@ -9,6 +9,8 @@ public class CleanFile {
 
         try (FileReader fileReader = new FileReader(new File("/home/thomas/Codelanding/java/CS211S/Arachnida/src/main/resources/521.csv"))
              ; PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(new File("cleaned521.csv"))))){
+
+            Map<String, List<Specie>> specieMap = new HashMap<>();
 
             Scanner fileScanner = new Scanner(fileReader);
 
@@ -42,6 +44,15 @@ public class CleanFile {
                     //Writing the cleaned file
                     if (!genus.isEmpty() && !species.isEmpty()){
                     out.println(genus+","+species);
+
+                    Specie s = new Specie(species,genus);
+                    if (!specieMap.containsKey(genus)){
+                        ArrayList<Specie> specieList = new ArrayList<>();
+                        specieList.add(s);
+
+                        specieMap.put(genus, specieList);
+                    }
+
                     }
                 }
             }
