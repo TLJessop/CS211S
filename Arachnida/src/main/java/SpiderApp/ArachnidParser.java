@@ -96,7 +96,6 @@ public class ArachnidParser {
 
             System.out.println(outString);
         }
-
     }
 
 
