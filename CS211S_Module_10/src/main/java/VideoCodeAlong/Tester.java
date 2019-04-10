@@ -35,14 +35,9 @@ public class Tester {
         Collections.sort(students);
         System.out.println(students+"\n");
 
-        //Anonymous innerclass
+        //lambda
         Collections.sort(students,
-                new Comparator<Student>() {
-                    @Override
-                    public int compare(Student o1, Student o2) {
-                        return Integer.compare(o1.getId(),o2.getId());
-                    }
-                });
+                (o1,o2) -> Integer.compare(o1.getId(),o2.getId()));
         System.out.println(students);
 
     }//main
