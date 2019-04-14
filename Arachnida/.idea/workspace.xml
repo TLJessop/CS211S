@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6833eda1-0b1f-49b0-860e-bb3b74f643d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arachnida2/src/main/java/com/Tljessop/SpiderApp/ArachnidParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arachnida2/src/main/java/com/Tljessop/SpiderApp/Specie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arachnida2/src/main/resouces/Arachnid.csv" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../CS211S_Module6/target/classes/BadCustomerInputDataSituation2.csv" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Shirt.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Pair.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/ShipingCodes.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/PairTester.class" />
+    <ignored path="../CS211S_Module6/src/main/resources/customers.txt" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Book.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileReading.class" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.jdt.core.prefs" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business.class" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.m2e.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/hello.txt" />
+    <ignored path="../CS211S_Module8/target/classes/HomeWork/RandomBoxDriver.class" />
+    <ignored path="../JavaMart/.classpath" />
+    <ignored path="../JavaMart/.settings/org.eclipse.jdt.apt.core.prefs" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Clothing$Size.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/SetPractice.class" />
+    <ignored path="../CS211SMod6/out/production/CS211SMod6/VideoCodeAlong/FileWritingAndReading.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Box.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/IllegalCharacterException.class" />
+    <ignored path="../JavaMart/.settings/org.eclipse.core.resources.prefs" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.jdt.apt.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileWriting$Customer.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/NumberWriter.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Item.class" />
+    <ignored path="../CS211S_Module6/src/main/resources/numbers.txt" />
+    <ignored path="../JavaMart/.project" />
+    <ignored path="../CS211S_Module6/target/classes/numbers.txt" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/FeaturedSpot.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/GenericsTester.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/CustomerInput.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/ListPractice.class" />
+    <ignored path="../CS211S_Module8/target/classes/META-INF/CS211S_Module8.kotlin_module" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/Customer.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/RawPair.class" />
+    <ignored path="../CS211SMod6/out/production/CS211SMod6/VideoCodeAlong/text/hello.txt" />
+    <ignored path="../JavaMart/.settings/org.eclipse.m2e.core.prefs" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business$1.class" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.core.resources.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/NotValidShippingException.class" />
+    <ignored path="../Module7/target/classes/SFBus.csv" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileWriting.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Clothing.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business$ComparatorOwnerName.class" />
+    <ignored path="../CS211SMod6/src/VideoCodeAlong/text/hello.txt" />
+    <ignored path="../CS211S_Module6/target/classes/BadCustomerInputDataSituation1.csv" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Store.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/MapPractice.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business$OwnerNaneIdComparator.class" />
+    <ignored path="../CS211S_Module6/src/main/resources/hello.txt" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/IteratorSmallExmaple.class" />
+    <ignored path="../CS211S_Module8/target/classes/HomeWork/RandomBox.class" />
+    <ignored path="../CS211S_Module6/target/classes/META-INF/CS211S_Module6.kotlin_module" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/ArrayUtilities.class" />
+    <ignored path="../JavaMart/.settings/org.eclipse.jdt.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/customers.txt" />
+    <ignored path="../CS211S_Module6/target/classes/GoodCustomerInputData.csv" />
+    <ignored path="CleanedArachnid.csv" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/Specie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding>
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/ArachnidParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resouces/Arachnid.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="81338" column="363" selection-start-line="81338" selection-start-column="363" selection-end-line="81338" selection-end-column="363" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Family.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderApp/Family.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderApp/Specice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderApp/Genus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderApp/CleanFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderApp/Specie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderApp/ArachnidParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resouces/Arachnid.csv" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="704" />
+    <option name="y" value="18" />
+    <option name="width" value="656" />
+    <option name="height" value="750" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="SpiderApp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553129931029" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/resouces" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/resouces" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ArachnidParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SpiderApp.ArachnidParser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpiderApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArachnidParser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6833eda1-0b1f-49b0-860e-bb3b74f643d3" name="Default Changelist" comment="" />
+      <created>1552113600915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552113600915</updated>
+      <workItem from="1552113604772" duration="1128000" />
+      <workItem from="1552115260098" duration="10308000" />
+      <workItem from="1552153706274" duration="12688000" />
+      <workItem from="1552367605803" duration="661000" />
+      <workItem from="1552712280052" duration="655000" />
+      <workItem from="1553129822076" duration="118000" />
+      <workItem from="1553130760363" duration="309000" />
+      <workItem from="1555257015294" duration="2264000" />
+    </task>
+    <task id="LOCAL-00001" summary="background files">
+      <created>1552117526507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552117526507</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setting up my arachnid data parser">
+      <created>1552117762295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552117762295</updated>
+    </task>
+    <task id="LOCAL-00003" summary="del">
+      <created>1552117788419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552117788419</updated>
+    </task>
+    <task id="LOCAL-00004" summary="start point of the family classificaton class">
+      <created>1552117843667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552117843667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="background file">
+      <created>1552117856231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552117856231</updated>
+    </task>
+    <task id="LOCAL-00006" summary="background file">
+      <created>1552118059705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552118059705</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start point of file parsing">
+      <created>1552118096839</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552118096839</updated>
+    </task>
+    <task id="LOCAL-00008" summary="raw arachnid data file">
+      <created>1552118126018</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552118126018</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pulled out the species and genius names into string variables">
+      <created>1552118896451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552118896451</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rename because of a change in the way I going to count arachnid species">
+      <created>1552119248295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552119248295</updated>
+    </task>
+    <task id="LOCAL-00011" summary="started skell of the species class">
+      <created>1552119635080</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552119635080</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added a list of held species to the genus class">
+      <created>1552120090845</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552120090845</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added constructor, name getter, species count getter and a method to add a speices to the list of species">
+      <created>1552120559620</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552120559620</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed typo">
+      <created>1552120676821</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552120676821</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed more spelling typos">
+      <created>1552120749801</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552120749801</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added equals method">
+      <created>1552150459269</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552150459269</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added compareTo method">
+      <created>1552150780322</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552150780322</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed method header typo">
+      <created>1552150833437</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552150833437</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add a couple labeling comments">
+      <created>1552150982762</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552150982762</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add a constructor">
+      <created>1552151145246</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1552151145246</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add toString method">
+      <created>1552151429842</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1552151429842</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add a couple comments">
+      <created>1552151701824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1552151701824</updated>
+    </task>
+    <task id="LOCAL-00023" summary="getters and setters">
+      <created>1552151825111</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1552151825111</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added equals method">
+      <created>1552152336127</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1552152336127</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added toString method">
+      <created>1552152494685</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1552152494685</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added compareTo method">
+      <created>1552153254623</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552153254623</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added the clean file writing fuctonality">
+      <created>1552154509402</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552154509402</updated>
+    </task>
+    <task id="LOCAL-00028" summary="removed the list of speices">
+      <created>1552155994369</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552155994369</updated>
+    </task>
+    <task id="LOCAL-00029" summary="removed the genus class">
+      <created>1552198858428</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552198858428</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Final and prettied-up version of the specie class">
+      <created>1552204441438</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552204441438</updated>
+    </task>
+    <task id="LOCAL-00031" summary="final version">
+      <created>1552206710579</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552206710579</updated>
+    </task>
+    <task id="LOCAL-00032" summary="removed a whitespace line.">
+      <created>1553129916734</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1553129916734</updated>
+    </task>
+    <task id="LOCAL-00033" summary="raw data for the app">
+      <created>1555257801354</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1555257801354</updated>
+    </task>
+    <task id="LOCAL-00034" summary="raw data for the app">
+      <created>1555258283935</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1555258283935</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28131000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="-3" width="1311" height="771" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.27572662" />
+      <window_info id="Structure" order="1" sideWeight="0.5015015" side_tool="true" weight="0.25255704" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.356623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49882168" visible="true" weight="0.35225618" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011783" side_tool="true" weight="0.35225618" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.25649095" />
+      <window_info id="Structure" order="1" sideWeight="0.5015015" side_tool="true" weight="0.25255704" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35735735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996066" weight="0.22972973" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003934" side_tool="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start point of file parsing" />
+    <MESSAGE value="raw arachnid data file" />
+    <MESSAGE value="pulled out the species and genius names into string variables" />
+    <MESSAGE value="rename because of a change in the way I going to count arachnid species" />
+    <MESSAGE value="started skell of the species class" />
+    <MESSAGE value="added a list of held species to the genus class" />
+    <MESSAGE value="added constructor, name getter, species count getter and a method to add a speices to the list of species" />
+    <MESSAGE value="fixed typo" />
+    <MESSAGE value="fixed more spelling typos" />
+    <MESSAGE value="fixed method header typo" />
+    <MESSAGE value="add a couple labeling comments" />
+    <MESSAGE value="add a constructor" />
+    <MESSAGE value="add toString method" />
+    <MESSAGE value="add a couple comments" />
+    <MESSAGE value="getters and setters" />
+    <MESSAGE value="added equals method" />
+    <MESSAGE value="added toString method" />
+    <MESSAGE value="added compareTo method" />
+    <MESSAGE value="added the clean file writing fuctonality" />
+    <MESSAGE value="removed the list of speices" />
+    <MESSAGE value="removed the genus class" />
+    <MESSAGE value="Final and prettied-up version of the specie class" />
+    <MESSAGE value="final version" />
+    <MESSAGE value="removed a whitespace line." />
+    <MESSAGE value="raw data for the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="raw data for the app" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/Genus.java" />
+    <entry file="file://$PROJECT_DIR$/CleanedArachnid.csv" />
+    <entry file="file://$PROJECT_DIR$/ArachnidSummary.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Arachnid.csv" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/Specie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resouces/Arachnid.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="81338" column="363" selection-start-line="81338" selection-start-column="363" selection-end-line="81338" selection-end-column="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/ArachnidParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Arachnida</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

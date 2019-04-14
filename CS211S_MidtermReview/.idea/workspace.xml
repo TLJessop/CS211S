@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b910b135-cd3a-49eb-aa42-1888ca7cc7d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/ErPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/InPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/OutPatient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Patients/PatientTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/StaffMembers/PayType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/StaffMembers/StaffMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module2/target/classes/com/tljessop/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module2/target/test-classes/com/tljessop/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module2/target/test-classes/com/tljessop/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/META-INF/CS211S_Module3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/CommissionPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/CommissionPayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/DepartmentTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/DepartmentTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee$EmployeeNameComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee$EmployeeNameComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee$EmployeeNameThenIdComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee$EmployeeNameThenIdComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/EmployeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/EmployeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/FullTimeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/FullTimeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/HourlyPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/HourlyPayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Intern.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Intern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/NotPaidPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/NotPaidPayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/PartTimeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/PartTimeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Payer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/Payer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/SalaryPayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module3/target/classes/com/Tjessop/VideoCodeAlong/SalaryPayer.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../JavaMart/.settings/org.eclipse.m2e.core.prefs" />
+    <ignored path="CS211S_MidtermReview.iml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path="pom.xml" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/IteratorSmallExmaple.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/FeaturedSpot.class" />
+    <ignored path="../CS211S_Module8/target/classes/META-INF/CS211S_Module8.kotlin_module" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileWriting$Customer.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Store.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/IllegalCharacterException.class" />
+    <ignored path="../Arachnida/target/classes/Arachnid.csv" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/SetPractice.class" />
+    <ignored path="../JavaMart/.settings/org.eclipse.jdt.apt.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/NumberWriter.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/ArrayUtilities.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileWriting.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/CustomerInput.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business.class" />
+    <ignored path="../CS211S_Module6/src/main/resources/customers.txt" />
+    <ignored path="../Arachnida/.idea/workspace.xml" />
+    <ignored path="../CS211S_Module6/target/classes/customers.txt" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Box.class" />
+    <ignored path="../Arachnida/target/classes/SpiderApp/Specie.class" />
+    <ignored path="../JavaMart/.settings/org.eclipse.core.resources.prefs" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Pair.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business$OwnerNaneIdComparator.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/MapPractice.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Shirt.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/FileReading.class" />
+    <ignored path=".idea/compiler.xml" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/NotValidShippingException.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/GenericsTester.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/RawPair.class" />
+    <ignored path="../Arachnida/target/classes/META-INF/Arachnida.kotlin_module" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.m2e.core.prefs" />
+    <ignored path="../CS211S_Module6/src/main/resources/numbers.txt" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/PairTester.class" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.core.resources.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/numbers.txt" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.jdt.core.prefs" />
+    <ignored path="../CS211S_Module6/target/classes/hello.txt" />
+    <ignored path="../Arachnida/target/classes/SpiderApp/ArachnidParser.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/VideoCodeAlong/ShipingCodes.class" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business$1.class" />
+    <ignored path="../JavaMart/.classpath" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/Business$ComparatorOwnerName.class" />
+    <ignored path="../CS211S_Module6/target/classes/GoodCustomerInputData.csv" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path="../CS211S_Module6/target/classes/BadCustomerInputDataSituation1.csv" />
+    <ignored path="../CS211S_Module6/target/classes/BadCustomerInputDataSituation2.csv" />
+    <ignored path="../CS211S_Module6/target/classes/META-INF/CS211S_Module6.kotlin_module" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Book.class" />
+    <ignored path="../CS211S_Module6/target/classes/com/Tljessop/HomeWork/Customer.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Clothing$Size.class" />
+    <ignored path="../JavaMart/.project" />
+    <ignored path="../Module7/target/classes/VideoCodeAlong/ListPractice.class" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Item.class" />
+    <ignored path="../JavaMart/.settings/org.eclipse.jdt.core.prefs" />
+    <ignored path="../CS211S_Module6/.settings/org.eclipse.jdt.apt.core.prefs" />
+    <ignored path="../CS211S_Module8/target/classes/VideoCodeAlong/Clothing.class" />
+    <ignored path="../CS211S_Module8/target/classes/HomeWork/RandomBoxDriver.class" />
+    <ignored path="../CS211S_Module8/target/classes/HomeWork/RandomBox.class" />
+    <ignored path="../CS211S_Module6/src/main/resources/hello.txt" />
+    <ignored path="../Arachnida/CleanedArachnid.csv" />
+    <ignored path="../Module7/target/classes/SFBus.csv" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Review/ReviewDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="54" column="112" selection-start-line="54" selection-start-column="112" selection-end-line="54" selection-end-column="112" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#199#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/IOSkell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="12" column="16" selection-start-line="9" selection-start-column="3" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/TestArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="133" column="19" selection-start-line="131" selection-end-line="145" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#240#0" expanded="true" />
+                <element signature="e#461#469#0" expanded="true" />
+                <element signature="e#996#1004#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module6/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module8/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Module7/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module6/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module8/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Module7/.project">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animals.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/target/classes/com/tljessop/VideoCodeAlong/Employee.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/target/classes/com/tljessop/VideoCodeAlong/EmployeePayType.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Patients/ErPatient.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Patients/InPatient.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nameAndPhone.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/.settings/org.eclipse.core.resources.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/.settings/org.eclipse.core.resources.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/.settings/org.eclipse.core.resources.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/.settings/org.eclipse.jdt.apt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/.settings/org.eclipse.jdt.apt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/.settings/org.eclipse.jdt.apt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module8/.settings/org.eclipse.jdt.apt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Module7/.settings/org.eclipse.jdt.apt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/.settings/org.eclipse.jdt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/.settings/org.eclipse.jdt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/.settings/org.eclipse.jdt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module8/.settings/org.eclipse.jdt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Module7/.settings/org.eclipse.jdt.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/.settings/org.eclipse.m2e.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/.settings/org.eclipse.m2e.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module3/.settings/org.eclipse.m2e.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module8/.settings/org.eclipse.m2e.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Module7/.settings/org.eclipse.m2e.core.prefs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Patients/OutPatient.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Patients/Patient.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Patients/PatientSatus.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Patients/PatientTester.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Staff/PayType.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Person.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module1/target/classes/com/Tljessop/Person/Staff/StaffMember.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../CS211S_Module2/target/classes/com/tljessop/VideoCodeAlong/Status.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="64" />
+              <folding>
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1570#1571#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1656#1657#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Horse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" column="15" selection-start-line="4" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Cow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#94#95#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/RawFoodFeeder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="6" column="14" selection-start-line="2" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/CookedFoodFeeder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="1" selection-end-line="9" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Feeder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class With Main" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Review/ReviewDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/IOSkell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/Feeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/RawFoodFeeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/CookedFoodFeeder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/Cow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/Horse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/Animal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Midterm/TestArea.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="704" />
+    <option name="y" value="18" />
+    <option name="width" value="656" />
+    <option name="height" value="750" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CS211S_MidtermReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_MidtermReview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS211S_MidtermReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_MidtermReview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS211S_MidtermReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_MidtermReview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS211S_MidtermReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_MidtermReview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS211S_MidtermReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_MidtermReview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Midterm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS211S_MidtermReview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS211S_MidtermReview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Review" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554134388962" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestArea">
+    <configuration name="ReviewDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review.ReviewDriver" />
+      <module name="CS211S_Midterm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Midterm.TestArea" />
+      <module name="CS211S_Midterm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Midterm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="CS211S_Midterm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="CS211S_Midterm" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestArea" />
+        <item itemvalue="Application.ReviewDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b910b135-cd3a-49eb-aa42-1888ca7cc7d6" name="Default Changelist" comment="" />
+      <created>1553129511420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553129511420</updated>
+      <workItem from="1553129516333" duration="469000" />
+      <workItem from="1553130016462" duration="698000" />
+      <workItem from="1553130741408" duration="13000" />
+      <workItem from="1553131070412" duration="19042000" />
+    </task>
+    <task id="LOCAL-00001" summary="autoupdate">
+      <created>1553129629979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553129629979</updated>
+    </task>
+    <task id="LOCAL-00002" summary="set up review project">
+      <created>1553131515485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553131515486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="wrote a small cli to review maps file writing">
+      <created>1553206077181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553206077181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="wrote a small cli to review maps file writing">
+      <created>1553206124470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553206124470</updated>
+    </task>
+    <task id="LOCAL-00005" summary="renamed the project">
+      <created>1553206175538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553206175538</updated>
+    </task>
+    <task id="LOCAL-00006" summary="file reader and filewriter skell in case needed on my midterm">
+      <created>1553206980130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553206980130</updated>
+    </task>
+    <task id="LOCAL-00007" summary="code from my midterm">
+      <created>1554134377245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554134377245</updated>
+    </task>
+    <task id="LOCAL-00008" summary="code from my midterm">
+      <created>1554134389133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554134389133</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20222000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="-3" width="1311" height="771" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19197482" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24940991" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.3296617" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32882884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882884" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32882884" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.4834835" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="autoupdate" />
+    <MESSAGE value="whitespace line removed" />
+    <MESSAGE value="set up review project" />
+    <MESSAGE value="wrote a small cli to review maps file writing" />
+    <MESSAGE value="renamed the project" />
+    <MESSAGE value="file reader and filewriter skell in case needed on my midterm" />
+    <MESSAGE value="code from my midterm" />
+    <option name="LAST_COMMIT_MESSAGE" value="code from my midterm" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS211S_Midterm.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nameAndPhone.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Review/ReviewDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="54" column="112" selection-start-line="54" selection-start-column="112" selection-end-line="54" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#199#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Cow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/IOSkell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="16" selection-start-line="9" selection-start-column="3" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animals.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="64" />
+          <folding>
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/CookedFoodFeeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="1" selection-end-line="9" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Feeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/Horse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="15" selection-start-line="4" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/RawFoodFeeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="14" selection-start-line="2" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Midterm/TestArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="133" column="19" selection-start-line="131" selection-end-line="145" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#240#0" expanded="true" />
+            <element signature="e#461#469#0" expanded="true" />
+            <element signature="e#996#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CS211S_Midterm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
