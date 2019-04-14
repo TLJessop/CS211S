@@ -118,9 +118,12 @@ public class ArachnidParser {
                 int cellCount = 0;
                 char[] chars = line.toCharArray();
 
+                System.out.println(line);
+
                 for (int i = 0; i < chars.length ; i++) {
                     if (chars[i]=='|') cellCount++;
                 }
+                System.out.println(cellCount);
 
                 //Catching the line of full length
                 if (cellCount >= 26) {
@@ -136,25 +139,26 @@ public class ArachnidParser {
 
                     //Grabbing the genus name
                     String genus = lineScaner.next();
-                    if (!genusList.contains(genus)) {
-                        genusList.add(genus);
-                    }
+                    System.out.println(genus);
+//                    if (!genusList.contains(genus)) {
+//                        genusList.add(genus);
+//                    }
 
                     //Skipping another column
-                    lineScaner.next();
+                    //lineScaner.next();
 
                     //Grabbing the genus name
-                    String species = lineScaner.next();
+                    //String species = lineScaner.next();
 
 
-                    if (!genus.isEmpty() && !species.isEmpty()) {
-                        //Writing the cleaned file
-                        out.println(genus + "," + species);
-
-                        Specie s = new Specie(species, genus);
-                        specieListTotal.add(s);
-
-                    }
+//                    if (!genus.isEmpty() && !species.isEmpty()) {
+//                        //Writing the cleaned file
+//                        out.println(genus + "," + species);
+//
+//                        Specie s = new Specie(species, genus);
+//                        specieListTotal.add(s);
+//
+//                    }
                 }
             });
         }catch (NoSuchElementException e){
