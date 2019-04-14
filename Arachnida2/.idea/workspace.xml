@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54fd3c06-450d-4637-8728-a4dd04ed966b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/SpiderApp/ArachnidParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Tljessop/SpiderApp/Specie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resouces/Arachnid.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arachnida/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arachnida/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -148,6 +148,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -203,12 +206,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555258876387</updated>
-      <workItem from="1555258879762" duration="369000" />
+      <workItem from="1555258879762" duration="1494000" />
     </task>
+    <task id="LOCAL-00001" summary="new version of the spider app">
+      <created>1555259285870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555259285870</updated>
+    </task>
+    <task id="LOCAL-00002" summary="copied over code">
+      <created>1555259338317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555259338317</updated>
+    </task>
+    <task id="LOCAL-00003" summary="raw data">
+      <created>1555259354641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555259354641</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cleaned data">
+      <created>1555259377957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555259377957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369000" />
+    <option name="totallyTimeSpent" value="1494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-3" width="1311" height="771" extended-state="6" />
@@ -223,7 +255,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32896653" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32896653" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,6 +277,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new version of the spider app" />
+    <MESSAGE value="copied over code" />
+    <MESSAGE value="raw data" />
+    <MESSAGE value="cleaned data" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned data" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
