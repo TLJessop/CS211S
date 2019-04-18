@@ -21,7 +21,14 @@ public class LinkedQueue<T> implements QueueInterface<T> {
      */
     @Override
     public void enqueue(T newEntry) {
+       Node newNode = new Node(newEntry, null);
+        if (isEmpty()){
+            headNode = newNode;
+        } {
+            tailNode.next = newNode;
+        }
 
+        tailNode = newNode;
     }
 
     /**
