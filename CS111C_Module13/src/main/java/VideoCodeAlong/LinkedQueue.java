@@ -68,7 +68,9 @@ public class LinkedQueue<T> implements QueueInterface<T> {
      */
     @Override
     public void clear() {
-
+        headNode = null;
+        tailNode = null;
+        numberOfEnteries = 0;
     }
 
     //Doubly linked node private inner-class
