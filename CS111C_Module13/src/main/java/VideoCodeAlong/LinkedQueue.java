@@ -2,6 +2,17 @@ package VideoCodeAlong;
 
 public class LinkedQueue<T> implements QueueInterface<T> {
 
+    //Instance data
+    private Node headNode;
+    private Node tailNode;
+    private int numberOfEnteries;
+
+    //Constructor
+    public LinkedQueue(){
+        headNode = null;
+        tailNode = null;
+        numberOfEnteries = 0;
+    }
 
     /**
      * Task: Adds a new entry to the back of the queue.
