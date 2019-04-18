@@ -32,7 +32,14 @@ public class LinkedQueue<T> implements QueueInterface<T> {
      */
     @Override
     public T dequeue() {
-        return null;
+        if (headNode != null){
+             T returnValue = headNode.data;
+             headNode = headNode.next;
+             numberOfEnteries--;
+             return returnValue;
+        } else {
+            throw new EmptyQueueException();
+        }
     }
 
     /**
