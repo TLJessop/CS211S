@@ -50,7 +50,7 @@ public class LinkedQueue<T> implements QueueInterface<T> {
      */
     @Override
     public T getFront() {
-        return null;
+        return headNode.data;
     }
 
     /**
