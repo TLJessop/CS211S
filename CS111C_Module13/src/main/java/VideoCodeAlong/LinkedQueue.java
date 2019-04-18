@@ -35,7 +35,6 @@ public class LinkedQueue<T> implements QueueInterface<T> {
         if (headNode != null){
              T returnValue = headNode.data;
              headNode = headNode.next;
-             headNode.before = null;
              numberOfEnteries--;
              return returnValue;
         } else {
@@ -74,17 +73,16 @@ public class LinkedQueue<T> implements QueueInterface<T> {
         numberOfEnteries = 0;
     }
 
-    //Doubly linked node private inner-class
+    //Node private inner-class
     private class Node{
 
         //Instance data
         private T data;
-        private Node before, next;
+        private Node next;
 
         //Constructor
-        private Node(T entry, Node before, Node next){
+        private Node(T entry, Node next){
             this.data = entry;
-            this.before = before;
             this.next = next;
         }
 
@@ -95,14 +93,6 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 
         public void setData(T data) {
             this.data = data;
-        }
-
-        public Node getBefore() {
-            return before;
-        }
-
-        public void setBefore(Node before) {
-            this.before = before;
         }
 
         public Node getNext() {
