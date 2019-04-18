@@ -35,6 +35,7 @@ public class LinkedQueue<T> implements QueueInterface<T> {
         if (headNode != null){
              T returnValue = headNode.data;
              headNode = headNode.next;
+             headNode.before = null;
              numberOfEnteries--;
              return returnValue;
         } else {
