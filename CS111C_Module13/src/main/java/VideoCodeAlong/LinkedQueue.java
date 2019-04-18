@@ -80,6 +80,23 @@ public class LinkedQueue<T> implements QueueInterface<T> {
         numberOfEnteries = 0;
     }
 
+    @Override
+    public String toString(){
+        StringBuilder outString = new StringBuilder("LinkedQueue [");
+        Node currentNode = headNode;
+
+        while (currentNode != null){
+            outString.append(currentNode.data);
+            if (currentNode != tailNode){
+                outString.append(", ");
+            }
+            currentNode = currentNode.next;
+        }
+        outString.append("]");
+
+        return outString.toString();
+    }
+
     //Node private inner-class
     private class Node{
 
