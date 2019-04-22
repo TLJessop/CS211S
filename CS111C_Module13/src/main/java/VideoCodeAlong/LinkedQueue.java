@@ -24,7 +24,7 @@ public class LinkedQueue<T> implements QueueInterface<T> {
        Node newNode = new Node(newEntry, null);
         if (isEmpty()){
             headNode = newNode;
-        } {
+        } else  {
             tailNode.next = newNode;
         }
 
@@ -41,8 +41,13 @@ public class LinkedQueue<T> implements QueueInterface<T> {
     public T dequeue() {
         if (headNode != null){
              T returnValue = headNode.data;
+
              headNode = headNode.next;
              numberOfEnteries--;
+
+             if (headNode == null){
+                 tailNode = null;
+             }
              return returnValue;
         } else {
             throw new EmptyQueueException();
