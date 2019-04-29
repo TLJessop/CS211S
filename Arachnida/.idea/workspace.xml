@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6833eda1-0b1f-49b0-860e-bb3b74f643d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/DequeStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/DequeStackTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/ListDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/ListDequeTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arachnida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module11/CS211S_Module11.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arachnida2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arachnida2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS111C_Module13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CS111C_Module13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/HomeworkM13Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/HomeworkM13Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CS111C_Module13/src/main/java/HomeWork/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS211S_Module11/src/main/java/HomeWork/HomeworkM11Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CS211S_Module11/src/main/java/HomeWork/HomeworkM11Streams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,6 +82,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
       <file pinned="false" current-in-tab="false">
@@ -96,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/ArachnidParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="96">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +120,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resouces/Arachnid.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="81338" column="363" selection-start-line="81338" selection-start-column="363" selection-end-line="81338" selection-end-column="363" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -126,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="1476">
               <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
             </state>
           </provider>
@@ -197,11 +206,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="704" />
-    <option name="y" value="18" />
-    <option name="width" value="656" />
-    <option name="height" value="750" />
+    <option name="y" value="26" />
+    <option name="width" value="654" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,34 +223,29 @@
           <expand>
             <path>
               <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Arachnida" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Arachnida" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Arachnida" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Arachnida" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Arachnida" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Codelanding/java/CS211S/Arachnida" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Arachnida" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -251,6 +255,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
@@ -260,13 +265,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553129931029" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/resouces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -328,6 +333,8 @@
       <workItem from="1553129822076" duration="118000" />
       <workItem from="1553130760363" duration="309000" />
       <workItem from="1555257015294" duration="2673000" />
+      <workItem from="1556158723437" duration="1910000" />
+      <workItem from="1556295859062" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="background files">
       <created>1552117526507</created>
@@ -571,12 +578,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28540000" />
+    <option name="totallyTimeSpent" value="30584000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="18" width="1311" height="750" extended-state="6" />
+    <frame x="704" y="26" width="654" height="714" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.27572662" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984985" weight="0.5779221" />
       <window_info id="Structure" order="1" sideWeight="0.5015015" side_tool="true" weight="0.25255704" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -592,11 +600,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49882168" visible="true" weight="0.36336336" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49882168" visible="true" weight="0.37142858" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011783" side_tool="true" weight="0.35225618" />
       <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -606,6 +615,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.25649095" />
@@ -691,7 +701,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resouces/Arachnid.csv">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="81338" column="363" selection-start-line="81338" selection-start-column="363" selection-end-line="81338" selection-end-column="363" />
         </state>
@@ -706,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="1476">
           <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
         </state>
       </provider>
@@ -734,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpiderApp/ArachnidParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="96">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
