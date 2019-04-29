@@ -11,13 +11,23 @@ public final class Committee {
     private final LocalDate formationDate;
 
     //Constructor
-    public Committee (String name, int numMembers, Member committeeChair, LocalDate formationDate){
+    private Committee (String name, int numMembers, Member committeeChair, LocalDate formationDate){
         validArgs(name,numMembers,committeeChair,formationDate);
         this.name = name;
         this.numMembers = numMembers;
         this.committeeChair = committeeChair;
         this.formationDate = formationDate;
     }
+
+    public Committee updateName(String newName){
+        if (!newName.equals(name)){
+            return new Committee(newName,numMembers,new Member(committeeChair.getFirstName(),committeeChair.getLastName(),
+                    committeeChair.getAge(),committeeChair.getStatus()),formationDate);
+        } else {
+            throw new IllegalArgumentException("Name was  already :" + name );
+        }
+    }
+
 
     //Validator
     private void validArgs(String name, int numMembers, Member committeeChair, LocalDate formationDate){
