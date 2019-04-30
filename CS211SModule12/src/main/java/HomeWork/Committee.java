@@ -25,7 +25,7 @@ public final class Committee {
     }
 
     //Committee returning methods
-    public Committee rename(String newName){
+    public Committee committeeOfName(String newName){
         if (!newName.equals(name)){
             return new Committee(newName,numMembers,new Member(committeeChair.getFirstName(),committeeChair.getLastName(),
                     committeeChair.getAge(),committeeChair.getStatus()),formationDate);
@@ -34,7 +34,7 @@ public final class Committee {
         }
     }
 
-    public Committee newChair(Member newChair){
+    public Committee committeeOfChair(Member newChair){
         if (!committeeChair.equals(newChair)){
             return new Committee(name,numMembers,newChair,formationDate);
         } else {
@@ -42,7 +42,7 @@ public final class Committee {
         }
     }
 
-    public Committee newNumberOfMmbers(int newNumMembers){
+    public Committee committeeOfNumberMembers(int newNumMembers){
         if (newNumMembers != numMembers){
             return new Committee(name,newNumMembers,new Member(committeeChair.getFirstName(), committeeChair.getLastName(),
                     committeeChair.getAge(),committeeChair.getStatus()),formationDate);
