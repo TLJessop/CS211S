@@ -24,12 +24,21 @@ public final class Committee {
         return new Committee(name,numMembers,committeeChair,formationDate);
     }
 
-    public Committee updateName(String newName){
+    //Committee returning methods
+    public Committee rename(String newName){
         if (!newName.equals(name)){
             return new Committee(newName,numMembers,new Member(committeeChair.getFirstName(),committeeChair.getLastName(),
                     committeeChair.getAge(),committeeChair.getStatus()),formationDate);
         } else {
             throw new IllegalArgumentException("Name was  already :" + name );
+        }
+    }
+
+    public Committee newChair(Member newChair){
+        if (!committeeChair.equals(newChair)){
+            return new Committee(name,numMembers,newChair,formationDate);
+        } else {
+            throw new IllegalArgumentException(committeeChair.getFirstName() + " " + committeeChair.getLastName() + " is already the chair");
         }
     }
 
