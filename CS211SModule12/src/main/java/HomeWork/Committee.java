@@ -34,6 +34,23 @@ public final class Committee {
     }
 
 
+    //Getters
+    public String getName() {
+        return name;
+    }
+
+    public int getNumMembers() {
+        return numMembers;
+    }
+
+    public LocalDate getFormationDate() {
+        return formationDate;
+    }
+
+    public Member getCommitteeChair() {
+        return new Member(committeeChair.getFirstName(),committeeChair.getLastName(),committeeChair.getAge(),committeeChair.getStatus());
+    }
+
     //Validator
     private void validArgs(String name, int numMembers, Member committeeChair, LocalDate formationDate){
         if (name.isEmpty()){
