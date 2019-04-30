@@ -19,6 +19,11 @@ public final class Committee {
         this.formationDate = formationDate;
     }
 
+    //Factory method
+    public Committee createCommitte(String name, int numMembers, Member committeeChair, LocalDate formationDate){
+        return new Committee(name,numMembers,committeeChair,formationDate);
+    }
+
     public Committee updateName(String newName){
         if (!newName.equals(name)){
             return new Committee(newName,numMembers,new Member(committeeChair.getFirstName(),committeeChair.getLastName(),
