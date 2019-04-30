@@ -8,6 +8,7 @@ public final class Committee {
     private final String name;
     private final int  numMembers;
     private final Member committeeChair;
+    //Note there is no committeeOf method for this variable
     private final LocalDate formationDate;
 
     //Constructor
