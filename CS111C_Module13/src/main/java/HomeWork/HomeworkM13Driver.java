@@ -119,7 +119,20 @@ public class HomeworkM13Driver {
 	// warnings so you can focus on the queue logic
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void splice(QueueInterface firstQueue, QueueInterface secondQueue) {
-		// YOUR CODE HERE
+		if (!firstQueue.isEmpty() && !secondQueue.isEmpty()) {
+			LinkedList repair = new LinkedList();
+
+			while (!secondQueue.isEmpty()){
+				Object item = secondQueue.dequeue();
+				firstQueue.enqueue(item);
+				repair.add(item);
+			}
+
+			while (!repair.isEmpty()){
+				secondQueue.enqueue(repair.removeFirst());
+			}
+
+		}
  	}
 
 }
