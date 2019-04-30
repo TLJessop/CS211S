@@ -42,6 +42,14 @@ public final class Committee {
         }
     }
 
+    public Committee newNumberOfMmbers(int newNumMembers){
+        if (newNumMembers != numMembers){
+            return new Committee(name,newNumMembers,new Member(committeeChair.getFirstName(), committeeChair.getLastName(),
+                    committeeChair.getAge(),committeeChair.getStatus()),formationDate);
+        } else {
+            throw new IllegalArgumentException("The committee already has " + numMembers + " members");
+        }
+    }
 
     //Getters
     public String getName() {
