@@ -20,17 +20,16 @@ public class CookThread implements Runnable{
     public void run() {
         try {
             while (!thingsToMake.isEmpty()){
-                Food currentFood = thingsToMake.get(0);
-                //if (ready.offer(currentFood))
-                if (true)
+                if (ready.remainingCapacity() > 0)
                 {
-                System.out.println("Cook starting " + currentFood);
-                Thread.sleep(currentFood.getCookTime() * 1000);
-                System.out.println("Cook finishing " + currentFood);
-
+                    Food currentFood = thingsToMake.get(0);
+                    System.out.println("Cook Ready");
+                    System.out.println("Cook starting " + currentFood);
+                    Thread.sleep(currentFood.getCookTime() * 1000);
+                    System.out.println("Cook finishing " + currentFood);
+                    ready.offer(currentFood);
                     thingsToMake.remove(currentFood);
                 } else {
-                    System.out.println("waiting for window space");
                     continue;
                 }
             }
