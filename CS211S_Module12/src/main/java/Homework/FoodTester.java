@@ -15,6 +15,9 @@ public class FoodTester {
 		foodList.add(new Food("Bruchetta", 3, 1));
 		foodList.add(new Food("Bread", 1, 1));
 		foodList.add(new Food("Fried Green Tomatoes", 2, 1));
+
+		//Shared done food
+		BlockingQueue<Food> ready = new ArrayBlockingQueue<>(3);
 		
 		// INITIALIZE AND START YOUR THREADS HERE!
 		Thread cooker = null;  
