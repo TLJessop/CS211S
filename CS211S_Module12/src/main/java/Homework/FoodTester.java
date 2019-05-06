@@ -20,8 +20,10 @@ public class FoodTester {
 		BlockingQueue<Food> ready = new ArrayBlockingQueue<>(3);
 		
 		// INITIALIZE AND START YOUR THREADS HERE!
-		Thread cooker = null;  
-		Thread server = null;
+		Thread cooker = new Thread(new CookThread(foodList,ready));
+		Thread server = new Thread(new ServeThread(ready));
+
+		cooker.start();
 		
 			
 		int programTimeCounter=0;
