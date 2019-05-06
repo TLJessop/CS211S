@@ -24,10 +24,10 @@ public class FoodTester {
 		Thread server = new Thread(new ServeThread(ready));
 
 		cooker.start();
-		
+		server.start();
 			
 		int programTimeCounter=0;
-		while(Thread.activeCount()>1) {
+		while(Thread.activeCount()>2) {
 			System.out.println("TIME " + programTimeCounter);
 			programTimeCounter++;
 			try {
