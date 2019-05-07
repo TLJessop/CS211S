@@ -40,8 +40,8 @@ public class FoodTester {
 		// USE STREAMS HERE ON THE INITIAL LIST! 
 		// NOTE: THIS PART HAS NOTHING TO DO WITH THE THREADS- JUST MORE STREAM PRACTICE! :)
 		// USE METHOD REFERENCES!
-		int totalCookTime = -1;
-		int totalServeTime = -1;
+		int totalCookTime = foodList.stream().mapToInt(Food::getCookTime).sum();
+		int totalServeTime = foodList.stream().mapToInt(Food::getServeTime).sum();
 		System.out.println("Total Cook Time = " + totalCookTime);
 		System.out.println("Total Serve Time = " + totalServeTime);	
 		System.out.println("Program Time = " + programTimeCounter);
