@@ -19,10 +19,10 @@ public class ServeThread implements Runnable {
             while ( !ready.isEmpty() || Thread.activeCount() > 3){
                 Food currentFood = ready.poll();
                 if (currentFood != null) {
-                    System.out.println("Server ready");
                     System.out.println("Server starting " + currentFood);
                     Thread.sleep(currentFood.getServeTime() * 1000);
                     System.out.println("Server done with " + currentFood);
+                    System.out.println("Server ready");
                 } else {
                     continue;
                 }
