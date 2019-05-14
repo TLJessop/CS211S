@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface ProperLength {
-    int min_lenght() default 1;
-    int max_lendht() default 255;
+    int min_length() default 1;
+    int max_length() default 255;
 }//ProperLength

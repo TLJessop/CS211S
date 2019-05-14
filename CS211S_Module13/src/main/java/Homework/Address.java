@@ -1,6 +1,5 @@
 package Homework;
 
-import java.lang.annotation.*;
 import java.lang.reflect.*;
 
 public class Address {
@@ -11,15 +10,15 @@ public class Address {
 
 	private String street2;
 
-	@ProperLength(max_lendht = 40)
+	@ProperLength(max_length = 40)
 	private String city;
 
-	@ProperLength(min_lenght = 2,
-			max_lendht = 2)
+	@ProperLength(min_length = 2,
+			max_length = 2)
 	private String state;
 
-	@ProperLength(min_lenght = 5,
-				max_lendht = 5)
+	@ProperLength(min_length = 5,
+				max_length = 5)
 	private String zip;
 
 	public Address(String street, String street2, String city, String state, String zip) throws IllegalArgumentException  {
@@ -45,13 +44,13 @@ public class Address {
 					e.printStackTrace();
 				}
 
-				if (testedField.length() > lengthAnnotation.max_lendht()){
+				if (testedField.length() > lengthAnnotation.max_length()){
 					throw new IllegalArgumentException("IllegalArgumentException: Invalid address value [" +field.getName() +"=" + testedField + "] max length "
-							+ lengthAnnotation.max_lendht());
+							+ lengthAnnotation.max_length());
 				}
-				if (testedField.length() < lengthAnnotation.min_lenght()){
+				if (testedField.length() < lengthAnnotation.min_length()){
 					throw new IllegalArgumentException("IllegalArgumentException: Invalid address value [" +field.getName() +"=" + testedField + "] min length "
-							+ lengthAnnotation.min_lenght());
+							+ lengthAnnotation.min_length());
 				}
 
 			}
